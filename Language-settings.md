@@ -1,0 +1,1 @@
+RetroArch graphical interface have been translated in some languages. You can change the language in **Settings → User**.
