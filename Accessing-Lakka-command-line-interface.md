@@ -12,6 +12,8 @@ The easiest way to configure Lakka is to connect it via SSH. SSH is a service ru
 
 To access your Lakka box through SSH, you need to connect your box to your router by an ethernet cable. Lakka will get an IP address via DHCP, so you need DHCP enabled on your network (it should already be the case if you don't know what DHCP is).
 
+Then, you need to enable the SSH Service in **Settings->Services**.
+
 You will need an SSH client to connect to your box. You will also need to [know the IP address of your Lakka box](Finding-the-IP-of-your-Lakka-box).
 
 ### On Linux or Mac OS X
