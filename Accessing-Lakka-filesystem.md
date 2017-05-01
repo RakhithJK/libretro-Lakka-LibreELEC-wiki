@@ -24,7 +24,7 @@ The editable portions of the Lakka system can be found in the following folders.
 
 ### File transfer via Samba
 
-Samba is a service that you can enable in **Settings->Services** which allows other systems on the local network to add and remove files from Lakka via the CIFS/SMB protocol.  Only some folders are accessible via Samba.
+Samba is a service that you can enable in **Settings->Services** which allows other computers on the local network to transfer files to Lakka via the CIFS/SMB protocol.  Only the most important folders are accessible via Samba.
 
 Windows, OS X, and most Linux distributions should be able to navigate directly to Lakka's Samba share by entering `\\lakka\` into their file browser. If you cannot reach the Lakka system by name, it may be possible to reach it by IP. [Once you have determined Lakka's IP](Finding-the-IP-of-your-Lakka-box), enter that address in the file browser as with the Lakka name earlier, such as `\\FULL.IP.ADDRESS.HERE\`.
 
