@@ -8,7 +8,7 @@ Create the mount point folder:
 
 Create the mount unit:
 
-    nano /storage/.config/system.d/storage-nas.mount 
+    nano /storage/.config/system.d/storage-roms-nas.mount 
 
 Save and exit: `CTRL+O` then `Enter` to save, then `CTRL+X` to exit
 
@@ -22,7 +22,7 @@ Add this content, replacing placeholders with your IP, username and password inf
 
     [Mount]
     What=//192.168.0.31/roms
-    Where=/storage/nas
+    Where=/storage/roms/nas
     Options=username=myusername,password=mypassword,rw
     Type=cifs
     
@@ -31,8 +31,8 @@ Add this content, replacing placeholders with your IP, username and password inf
 
 Enable and start the service:
 
-    systemctl enable storage-nas.mount
-    systemctl start storage-nas.mount
+    systemctl enable storage-roms-nas.mount
+    systemctl start storage-roms-nas.mount
 
 If the mount was successful, the volume will be mounted automatically from now on at boot.
 
