@@ -19,7 +19,7 @@ You should see some messages about the upgrade process. After some seconds, your
 
 ### Manual updates
 
-1. Download the latest **tar** file corresponding to your hardware from [here](http://sources.lakka.tv/nightly/) (not the *-noobs.tar).
+1. Download the latest **img.gz** file corresponding to your hardware from [here](http://sources.lakka.tv/nightly/).
 2. Place this file in your **Storage** partition, in the .update folder, either using SAMBA or by mounting it
 3. Boot or reboot your hardware.
 
