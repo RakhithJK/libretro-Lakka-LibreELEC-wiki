@@ -14,7 +14,6 @@
 * [Playlists](Playlists)
 * [The Live USB Mode](The-Live-USB-Mode)
 * [Troubleshooting Lakka](Troubleshooting-Lakka)
-* [The next milestone, Lakka 2.0](Lakka-2.0)
 
 ## Configuring Lakka
 
