@@ -1,6 +1,6 @@
 Lakka takes its inspiration from projects like [RetroPie](https://github.com/petrockblog/RetroPie-Setup) and [PiMAME](https://github.com/ssilverm/PiMAME) that demonstrate the potential of combining a dedicated Linux environment with game emulation frontend software running on a small, low-power development board. However, these projects focus on Raspberry Pi hardware.
 
-Lakka's OpenELEC architecture and fast cross-compilation makes it possible to create optimized builds for a variety of hardware. Lakka supports many systems, including development boards, embedded/mobile systems, and tiny PCs. Examples include the Allwinner, iMX6, and Amlogic boards along with builds for 32-bit and 64-bit PC systems. [Learn more in "Hardware Support"](Hardware-support).
+Lakka's LibreELEC architecture and fast cross-compilation makes it possible to create optimized builds for a variety of hardware. Lakka supports many systems, including development boards, embedded/mobile systems, and tiny PCs. Examples include the Allwinner, iMX6, and Amlogic boards along with builds for 32-bit and 64-bit PC systems. [Learn more in "Hardware Support"](Hardware-support).
 
 ## Integration with RetroArch
 
@@ -15,11 +15,11 @@ RetroPie uses [EmulationStation](https://github.com/Aloshi/EmulationStation) as 
 
 [Learn more about the systems that Lakka supports](Hardware-support#which-systems-are-supported).
 
-## Built on OpenELEC
+## Built on LibreELEC
 
-Lakka is based on OpenELEC, which provides a number of advantages:
+Lakka is based on LibreELEC, which provides a number of advantages:
 
- * A 200mb read-only filesystem you cannot break even with root access.
+ * A 300mb read-only filesystem you cannot break even with root access.
  * A rock solid update system not based on packages, the whole filesystem and kernel are downloaded and replace the actual system.
  * Cross-compilation: Compiling the whole project including the Linux kernel takes about 2 hours on a good PC.
  * No useless extra packages, we strictly include the dependancy tree of RetroArch.
