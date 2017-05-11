@@ -24,6 +24,7 @@
   * [Wireless Dualshock](Wireless-Dualshock)
   * [Wii Remote](Wii-Remote)
   * [8Bitdo Wireless Controller](8Bitdo-Wireless-Controller)
+  * [Wii U GameCube Adapter](Wii-U-GameCube-Adapter)
 * [Audio settings](Audio-settings)
 * [Video settings](Video-settings)
 * [Network settings](Network-settings)
