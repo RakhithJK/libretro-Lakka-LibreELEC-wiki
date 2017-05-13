@@ -56,15 +56,7 @@ If you're on Linux, you can mount the second partition of your SD card/USB pendr
 
 ### Direct drive access on a Windows host
 
-Accessing `ext4` partitions from windows is not supported natively but there are some workarounds available:
-
-1. Use a 3rd party software/driver to access the partitions (This [web article](http://www.howtogeek.com/112888/3-ways-to-access-your-linux-partitions-from-windows/) has some more information on this topic).
-2. Use a complicated Linux Virtual Machine setup.
-3. Use Linux.
-
-The easiest option would be to use a 3rd party software/driver but they don't support all the features/requirements which `ext4` file system require. Its not recommended as they can corrupt the file systems.
-
-The safest option would be to use Linux itself... Although, it does not qualify its place in this section, its the most safe/secure way to access your lakka data partition. Here are 2 ways of using Linux:
+Accessing `ext4` partitions from windows is not supported natively but you can install a driver [web article](http://www.howtogeek.com/112888/3-ways-to-access-your-linux-partitions-from-windows/).
 
 ### Direct drive access on an OS X host
 
