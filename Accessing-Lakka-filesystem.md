@@ -56,7 +56,7 @@ If you're on Linux, you can mount the second partition of your SD card/USB pendr
 
 ### Direct drive access on a Windows host
 
-Accessing `ext4` partitions from windows is not supported natively but you can install a driver [web article](http://www.howtogeek.com/112888/3-ways-to-access-your-linux-partitions-from-windows/).
+Accessing `ext4` partitions from windows is not supported natively but you can install a [driver](http://www.howtogeek.com/112888/3-ways-to-access-your-linux-partitions-from-windows/).
 
 ### Direct drive access on an OS X host
 
