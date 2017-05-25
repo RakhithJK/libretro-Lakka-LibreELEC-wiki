@@ -2,6 +2,8 @@
 
     echo "TIMEZONE=Europe/Rome" > /storage/.cache/timezone
 
+Then reboot.
+
 ## Alternative way
 
 Using the [command line interface](Accessing-Lakka-filesystem):
