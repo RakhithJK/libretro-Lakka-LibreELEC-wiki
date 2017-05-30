@@ -6,10 +6,11 @@ Important:
  * SolidRun Hummingboard (Mine is broken)
  * <strike>DualShock 4 from Sony</strike>
  * An ATI graphic card
- * Wireless XBOX360 controller
+ * <strike>Wireless XBOX360 controller</strike>
  * <strike>XBOX One Controller</strike>
  * <strike>Steam Controller</strike>
  * <strike>8bitdo zero</strike>
+ * A PocketSHIP
 
 Less important:
 
