@@ -10,7 +10,7 @@ Important:
  * <strike>XBOX One Controller</strike>
  * <strike>Steam Controller</strike>
  * <strike>8bitdo zero</strike>
- * A PocketSHIP
+ * A PocketCHIP
 
 Less important:
 
