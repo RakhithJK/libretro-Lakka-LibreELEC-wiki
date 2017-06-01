@@ -61,6 +61,7 @@
  * [Achievements](Achievements)
  * [Serving ROMs from a NAS](Serving-ROMs-from-a-NAS)
  * [CRT Screens](CRT-Screens)
+ * [Lakka as AccessPoint](Lakka-as-AccessPoint)
 
 ## Contributing
 
