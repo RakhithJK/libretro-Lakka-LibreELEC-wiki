@@ -52,4 +52,4 @@ For PSP games, the preferred format is ISO.
 
 ## Arcade games
 
-The specificity of Arcade games is explained [here](https://github.com/libretro/Lakka/wiki/Arcade#arcade-roms)
+The specificity of Arcade games is explained [here](Arcade)
