@@ -12,7 +12,3 @@ You need to copy the following files to the directory:
 | ------------- | --------------------------------- |
 | dc_boot.bin   | e10c53c2f8b90bab96ead2d368858623  |
 | dc_flash.bin  | 0a93f7940c455905bea6e392dfde92a4  |
-
-# Scanning
-
-Scanning of dreamcast games is not yet supported. You have to create the playlist manually.
