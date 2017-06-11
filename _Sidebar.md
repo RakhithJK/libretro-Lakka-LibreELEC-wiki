@@ -49,6 +49,7 @@
  * [DOSBox](DOSBox)
  * [Dreamcast](Dreamcast)
  * [Nintendo 64](Nintendo-64)
+ * [OpenLara](OpenLara)
  * [PlayStation](PlayStation)
  * [Rick Dangerous](Rick-Dangerous)
  * [ScummVM](ScummVM)
