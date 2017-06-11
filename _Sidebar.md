@@ -52,6 +52,7 @@
  * [PlayStation](PlayStation)
  * [Rick Dangerous](Rick-Dangerous)
  * [ScummVM](ScummVM)
+ * [X68k](X68k)
 
 ## Advanced usage
 
