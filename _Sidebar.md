@@ -50,6 +50,7 @@
  * [Dreamcast](Dreamcast)
  * [Nintendo 64](Nintendo-64)
  * [PlayStation](PlayStation)
+ * [Rick Dangerous](Rick-Dangerous)
  * [ScummVM](ScummVM)
 
 ## Advanced usage
