@@ -28,6 +28,8 @@ Warning: Linux is a case sensitive system. Please name BIOS files exactly accord
 | Sega - Mega Drive - Genesis | bios_CD_U.bin | `2efd74e3232ff260e371b99f84024f7f` | USA |
 | Sega - Mega Drive - Genesis | bios_CD_E.bin | `e66fa1dc5820d254611fdcdba0662372` | Europe |
 | Sega - Saturn | saturn_bios.bin | `f273555d7d91e8a5a6bfd9bcf066331c` | |
+| Sharp - X68000 | cgrom.dat | `cb0a5cfcf7247a7eab74bb2716260269` | Goes under `system/keropi/` |
+| Sharp - X68000 | iplrom.dat | `7fd4caabac1d9169e289f0f7bbf71d8e` | Goes under `system/keropi/`|
 | Sony - PlayStation | scph5500.bin | `8dd7d5296a650fac7319bce665a6a53c` | Japan |
 | Sony - PlayStation | scph5501.bin | `490f666e1afb15b7362b406ed1cea246` | USA (Can be renamed from scph7003.bin) |
 | Sony - PlayStation | scph5502.bin | `32736f17079d0b2b7024407c39bd3050` | Europe |
