@@ -13,6 +13,8 @@ To allow launching ScummVM games from the menu, you'll need to do the following:
 
 4. (Optional) Alternatively, you could download a prepared `.scummvm` file from [libretro-database-scummvm](https://github.com/RobLoach/libretro-database-scummvm).
 
+5. Scan each game directory
+
 This is an example of what the playlist would look like:
 
     /storage/roms/scummvm/monkey/monkey.scummvm
