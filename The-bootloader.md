@@ -42,7 +42,7 @@ Remount the /flash mount r/w:
 
     mount -o remount,rw /flash
 
-Edit the file /flash/syslinux.cfg with nano:
+Edit the file /flash/syslinux.cfg (or extlinux.conf depending of your version) with nano:
 
     nano /flash/syslinux.cfg
 
