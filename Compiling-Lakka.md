@@ -11,17 +11,17 @@ packaging.
 
 First, clone Lakka:
 
-    $ git clone https://github.com/libretro/Lakka.git
+    $ git clone https://github.com/libretro/Lakka-LibreELEC
 
 Lakka is organized by projects, the *Generic* project targets PCs, while other
 projects like *RPi* targets very specific hardware like the Raspberry Pi.  
 The full list of projects can be listed like this:
 
-    $ ls -l Lakka/projects
+    $ ls -l Lakka-LibreELEC/projects
 
 You can now launch *make*, set the PROJECT and ARCH variables to fit your needs:
 
-    $ cd Lakka
+    $ cd Lakka-LibreELEC
     $ DISTRO=Lakka PROJECT=RPi ARCH=arm make image         # for the Raspberry Pi
     $ DISTRO=Lakka PROJECT=RPi2 ARCH=arm make image        # for the Raspberry Pi2/ Pi3
     $ DISTRO=Lakka PROJECT=imx6 ARCH=arm make image        # for the Hummingboard and Cubox-i
@@ -33,7 +33,7 @@ two :)
 If the build fails, make sure you have at least 10 GB of free space and 
 try to figure out which package is missing, install it, and *make* again.
 
-You will find the result in Lakka/target:
+You will find the result in Lakka-LibreELEC/target:
 
     $ ls -l target
 
@@ -46,7 +46,7 @@ Please follow this [tutorial](http://www.lakka.tv/get) to know how to flash Lakk
 
 If some time passed and you want to rebuild from newer sources:
 
-    $ cd Lakka
+    $ cd Lakka-LibreELEC
     $ git pull
     $ rm -rf target
     $ DISTRO=Lakka PROJECT=RPi ARCH=arm make image
