@@ -1,10 +1,10 @@
 ## Getting started
 
 * [Why Lakka](Why-Lakka)
+* [Glossary](Glossary)
 * [Hardware support](Hardware-support)
 * [Downloading and installing a prebuilt image](http://www.lakka.tv/get)
 * [Alternative installation methods](Alternative-installation-methods)
-* [Glossary](Glossary)
 * [Upgrading Lakka](Upgrading-Lakka)
 * [Accessing Lakka filesystem](Accessing-Lakka-filesystem)
 * [Accessing Lakka command line interface](Accessing-Lakka-command-line-interface)
