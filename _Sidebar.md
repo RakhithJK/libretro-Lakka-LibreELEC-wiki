@@ -68,7 +68,7 @@
 
 ## Contributing
 
-* [Fixing an issue](https://github.com/lakkatv/Lakka/issues)
+* [Fixing an issue](https://github.com/libretro/Lakka-LibreELEC/issues)
 * [Contributing your joypad config](Contributing-your-joypad-config)
 * [Compiling Lakka](Compiling-Lakka)
 * [Packaging a libretro core for Lakka](Packaging-a-libretro-core-for-Lakka)
@@ -77,7 +77,7 @@
 ## Support
 
 * [FAQ](FAQ)
-* [Bug tracker](https://github.com/lakkatv/Lakka/issues)
+* [Bug tracker](https://github.com/libretro/Lakka-LibreELEC/issues)
 * [Forums](https://forums.libretro.com/c/libretro/lakka-tv-general)
 * [IRC](irc://irc.freenode.org/#lakkatv)
 * [Contact form](http://www.lakka.tv/contact)
