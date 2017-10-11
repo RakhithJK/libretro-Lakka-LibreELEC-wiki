@@ -110,4 +110,4 @@ If you want your playlist to be displayed with the appropriate icons, you have t
 
     ls /usr/share/retroarch-assets/xmb/monochrome/png/
 
-Adding your own icons will be eased by an asset overriding system in the future versions of Lakka. In the meanwhile, you will have to rely on dirty solutions like changing the asset directory in RetroArch settings, and copying your assets to the storage partition.
+Adding your own icons is also possible, there is an overlay system in Lakka that allows you to override the content of `/usr/share/retroarch-assets` by placing files in `/storage/assets `. You have to replicate the same folder hierarchy.
