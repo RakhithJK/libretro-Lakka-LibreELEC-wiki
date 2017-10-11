@@ -28,10 +28,10 @@ Warning: Linux is a case sensitive system. Please name BIOS files exactly accord
 | Sega - Mega Drive - Genesis | bios_CD_U.bin | `2efd74e3232ff260e371b99f84024f7f` | USA |
 | Sega - Mega Drive - Genesis | bios_CD_E.bin | `e66fa1dc5820d254611fdcdba0662372` | Europe |
 | Sega - Saturn | saturn_bios.bin | `f273555d7d91e8a5a6bfd9bcf066331c` | Yabause |
-| Sega - Saturn | sega_101.bin | `85ec9ca47d8f6807718151cbcca8b964` | beelte-saturn |
-| Sega - Saturn | mpr-17933.bin | `3240872c70984b6cbfda1586cab68dbe` | beelte-saturn |
-| Sega - Saturn | mpr-18811-mx.ic1 | `255113ba943c92a54facd25a10fd780c` | beelte-saturn |
-| Sega - Saturn | mpr-19367-mx.ic1 | `1cd19988d1d72a3e7caa0b73234c96b4` | beelte-saturn |
+| Sega - Saturn | sega_101.bin | `85ec9ca47d8f6807718151cbcca8b964` | beetle-saturn |
+| Sega - Saturn | mpr-17933.bin | `3240872c70984b6cbfda1586cab68dbe` | beetle-saturn |
+| Sega - Saturn | mpr-18811-mx.ic1 | `255113ba943c92a54facd25a10fd780c` | beetle-saturn |
+| Sega - Saturn | mpr-19367-mx.ic1 | `1cd19988d1d72a3e7caa0b73234c96b4` | beetle-saturn |
 | Sharp - X68000 | cgrom.dat | `cb0a5cfcf7247a7eab74bb2716260269` | Goes under `system/keropi/` |
 | Sharp - X68000 | iplrom.dat | `7fd4caabac1d9169e289f0f7bbf71d8e` | Goes under `system/keropi/`|
 | Sony - PlayStation | scph5500.bin | `8dd7d5296a650fac7319bce665a6a53c` | Japan |
