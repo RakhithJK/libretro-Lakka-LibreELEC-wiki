@@ -1,28 +1,31 @@
 The bootloader is the software that will boot the Linux kernel, the core component of Lakka.
 Lakka uses the following bootloaders:
 
-  * **syslinux** - on the generic build
-  * **bcm2835-bootloader** - on RPi 1 and RPi 2
+  * **syslinux** - on the PC image
+  * **bcm2835-bootloader** - on Raspberry Pi
   * **u-boot** - on other ARM boards
 
 The booloader configuration file is generally present on the first partition of Lakka. It contains some useful settings that will be passed to the kernel. The name of this file differs depending on the platform:
 
-  * **On RPi1 and RPi2** - file name: cmdline.txt
+  * **On Raspberry Pi** - file name: cmdline.txt
   * **On a10** - file name: uEnv.txt
   * **On a20 Cubieboard2** - file name: uEnv.cb2
   * **On a20 Cubietruck** - file name: uEnv.ct 
   * **On Bananapi** - file name: uEnv.txt
   * **On imx6** - file name: uEnv.txt
   * **On Odroid-C1** - file name: boot.ini
-  * **On Odroid-XU3** - file name: boot.ini
+  * **On Odroid-C2** - file name: boot.ini
+  * **On Odroid-XU4** - file name: boot.ini
   * **On the Generic PC** - file name: extlinux.conf
   * **On WeTek Play** - not accessible
+  * **On WeTek Hub** - not accessible
+  * **On Orange Pi** - not yet supported
 
 The name of the argument passed from the bootloader to the Linux kernel is called the **cmdline**.
 
 ## Editing the cmdline
 
-### On Raspberry Pi 1 & 2
+### On Raspberry Pi
 
 Edit **cmdline.txt** in the first partition of your SD card. This first partition is FAT32, so you can just plug the SD card in your PC to find that file.
 
@@ -32,11 +35,7 @@ The cmdline on RPi looks like this:
 
 ### On Generic PC
 
-#### In Live Mode
-
-Start your Lakka Box with an USB keyboard. Hit tab while on the boot screen, this will let you edit the cmdline.
-
-#### In Installed Mode
+Access the [command line interface](Accessing-Lakka-command-line-interface).
 
 Remount the /flash mount r/w:
 
