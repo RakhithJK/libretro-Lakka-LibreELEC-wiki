@@ -28,8 +28,10 @@ This table shows which systems can be emulated on each of our supported hardware
 |Mega Drive       |A        |A    |A    |A    |A   |A   |A    |A  |A   |A  |
 |NES              |A        |B    |A    |A    |A   |A   |A    |A  |A   |A  |
 |Neo Geo Pocket   |-        |-    |A    |A    |?   |A   |A    |A  |A   |A  |
+|Nintendo 3DS     |-        |-    |-    |-    |-   |-   |-    |-  |-   |A  |
 |Nintendo 64      |-        |-    |C    |B    |?   |C   |C    |B  |A   |A  |
 |Nintendo DS      |-        |-    |-    |-    |-   |-   |-    |-  |-   |A  |
+|Nintendo GC      |-        |-    |-    |-    |-   |-   |-    |-  |-   |A  |
 |PCEngine         |A        |A    |A    |A    |?   |A   |A    |A  |A   |A  |
 |PCEngine CD      |B        |B    |A    |A    |?   |A   |A    |A  |A   |A  |
 |PC-FX            |-        |-    |-    |-    |-   |-   |-    |-  |-   |A  |
