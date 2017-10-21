@@ -6,7 +6,7 @@ The first section is composed of a table showing the level of support for each s
 
 This table shows which systems can be emulated on each of our supported hardware.
 
-|                 |RPi Zero |RPi  |RPi2 |RPi3 |a10 |a20 |imx6 |C1 |XU3 |PC |
+|                 |RPi0     |RPi1 |RPi2 |RPi3 |a10 |a20 |imx6 |C1 |XU4 |PC |
 |-----------------|---------|-----|-----|-----|----|----|-----|---|----|---|
 |2048             |A        |A    |A    |A    |A   |A   |A    |A  |A   |A  |
 |3DO              |-        |-    |-    |-    |-   |-   |-    |-  |-   |A  |
@@ -62,7 +62,7 @@ Meaning of grades:
 
 **Cons:** Weak, can't even run snes9x_next at full speed. Obsolete since the RPi2 is out. No SATA. No eMMC. No NAND. No WiFI. No Bluetooth.
 
-**Conclusion:** Buy a RPi 2
+**Conclusion:** Buy a RPi3
 
 ### Raspberry Pi 2
 
@@ -73,7 +73,7 @@ Meaning of grades:
 
 **Cons:** Still weak, can't run N64 and PSP games at full speed. Some CPS3 arcade games are slow. No SATA. No eMMC. No NAND. No WiFI. No Bluetooth.
 
-**Conclusion:** A good choice for beginners who want a cheap hardware and a lot of documentation. But it's still better to use a RPi3.
+**Conclusion:** Invest in a RPi3.
 
 ### Raspberry Pi 3
 
@@ -82,7 +82,7 @@ Meaning of grades:
 
 **Pros:** Powerful enough to run most SNES games with snes9x_next at full speed. Silent with no fan. Cheap like $35. Very good compatibility with TVs. Open source video api. Well documented with a large community of users. Uses the normal HDMI cable. Powered with micro USB. Uses SD or microSD cards. 4 USB ports. Easy to dual boot. Officially supported by OpenELEC/LibreELEC. Intagrated Wi-Fi and bluetooth.
 
-**Cons:** Can't run stuff like PSP games at full speed.
+**Cons:** Can't run heavy games like PSP games at full speed.
 
 **Conclusion:** A good choice for beginners who want a cheap hardware and a lot of documentation.
 
@@ -97,7 +97,7 @@ Nvidia and Intel graphic cards should work. If you have to choose, choose Intel 
 
 On PC, you will have to flash a USB drive. This drive can be used as a live environment, allowing you to try Lakka on your hardware without installing it. The drive can also be used to install Lakka on your PC, but still does not support dual booting so it would be better to use a dedicated machine like a NUC.
 
-**Pros:** Can virtually run any core. The live USB mode is convenient. The shaders can work well. Modular. Officially supported by OpenELEC.
+**Pros:** Can virtually run any core. The live USB mode is convenient. The shaders can work well. Modular. Officially supported by LibreELEC. Less input lag.
 
 **Cons:** Can be noisy. IO can be slow if not using an SSD. Very expensive. You will see a lot of messages on boot, like the BIOS and the syslinux bootloader. Not easy to dual boot. Not easy to unplug the hard drive to mount it on your laptop.
 
@@ -154,20 +154,20 @@ Very good ARM boards. Their price is higher than RPi2 and Odroid-C1 but Lakka ru
 **CPU:** Exynos
 **GPU:** Mali-T628
 
-**Pros:** $74 for an octa core is cheap. Very powerful CPU able to run most PSP games. No vsync issue, no tearing. The board supports eMMC. 4 USB ports. Friendly team, they provided two C1, one XU3 and one XU4 for free.
+**Pros:** $74 for an octa core is cheap. Very powerful CPU able to run most PSP games. No vsync issue, no tearing. The board supports eMMC. 4 USB ports. Hardkernel supports Lakka by donating hardware and money.
 
 **Cons:** The fan is noisy on the XU3. Uses his own barel power supply. Uses micro HDMI. Only 2 USB ports on the XU4. No integrated Wi-Fi and Bluetooth.
 
-**Conclusion:** A good and cheap alternative to PC. Too bad it is lacking integrated Wi-Fi and Bluetooth.
+**Conclusion:** The most powerful ARM board able to run Lakka. A good and cheap alternative to PC. Too bad it is lacking integrated Wi-Fi and Bluetooth.
 
 ### WeTek_Play
 
 **CPU:** Amlogic
 **GPU:** Mali
 
-**Pros:** Box provided. Powerful CPU. Good quality for the GPU BLOBs able to run mupen64plus at full speed. The WeTek team have been very helpful, they sent us a free sample. Officially supported by OpenELEC.
+**Pros:** Box provided. Powerful CPU. Good quality for the GPU BLOBs able to run mupen64plus at full speed. The WeTek team have been very helpful, they sent us a free sample. Officially supported by LibreELEC.
 
-**Cons:** No access to the bootloader. Resolution fixed to 720p. No way to disable their white bootsplash that stays behind the game viewport.
+**Cons:** No access to the bootloader. You have to boot Android to configure the resolution in the bootloader.
 
 **Conclusion:** If you are a N64 fan, and you have a 720p TV, and are not annoyed playing with a white background, it can be OK.
 
@@ -178,6 +178,7 @@ All USB joypads can be configured with some efforts. The most common USB joypads
 The best joypads to use with Lakka are:
 
 - XBox 360 wired controller
+- Xbox ONE controller
 - XBox 360 wireless controller + Microsoft adapter
 - Dualshock 3 controller
 
@@ -185,4 +186,3 @@ We also support:
 
  - 8bitdo NES30Pro
  - Dualshock 4 controller
- - XBOX ONE controller
