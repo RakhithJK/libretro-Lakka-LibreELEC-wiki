@@ -1,7 +1,7 @@
 The bootloader is the software that will boot the Linux kernel, the core component of Lakka.
 Lakka uses the following bootloaders:
 
-  * **syslinux** - on the PC image
+  * **syslinux** - on the PC
   * **bcm2835-bootloader** - on Raspberry Pi
   * **u-boot** - on other ARM boards
 
@@ -41,9 +41,12 @@ Remount the /flash mount r/w:
 
     mount -o remount,rw /flash
 
-Edit the file /flash/syslinux.cfg (or extlinux.conf depending of your version) with nano:
+Edit the two config files with nano:
 
     nano /flash/syslinux.cfg
+    nano /flash/EFI/BOOT/syslinux.cfg
+
+There are two files to support both BIOS and EFI boot.
 
 ### On imx6
 
