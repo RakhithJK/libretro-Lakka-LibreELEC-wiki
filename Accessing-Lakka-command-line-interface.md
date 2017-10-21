@@ -10,9 +10,9 @@ There are 3 ways to access the command line interface:
 
 The easiest way to configure Lakka is to connect it via SSH. SSH is a service running on your Lakka box, it lets you run commands on your box, such as editing configuration files.
 
-To access your Lakka box through SSH, you need to connect your box to your router by an ethernet cable. Lakka will get an IP address via DHCP, so you need DHCP enabled on your network (it should already be the case if you don't know what DHCP is).
+To access your Lakka box through SSH, you need to connect your Lakka device to the network.
 
-Then, you need to enable the SSH Service in **Settings->Services**.
+Then, you have to enable SSH in **Settings->Services**.
 
 You will need an SSH client to connect to your box. You will also need to [know the IP address of your Lakka box](Finding-the-IP-of-your-Lakka-box).
 
@@ -32,7 +32,7 @@ Use putty to connect your Lakka box, enter the IP of your box in the hostname fi
 
 ## Direct access
 
-Warning: This doesn't work for RPi and RPi2
+Warning: This doesn't work for Raspberry Pi
 
 You will need to edit the cmdline passed to the kernel by the bootloader, in order to enable the **tty service** and disable the **retroarch service**. You will also need to plug an USB keyboard to switch to tty3 and type commands.
 
