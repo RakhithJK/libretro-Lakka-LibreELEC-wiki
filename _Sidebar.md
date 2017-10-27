@@ -40,6 +40,7 @@
  * [Raspberry Pi](Raspberry-Pi)
  * [Cubieboard](Cubieboard)
  * [Odroid-XU3,XU4](Odroid-XU3,XU4)
+ * [S905](S905)
  * [WeTek Play](WeTek-Play)
  * [WeTek Core](WeTek-Core)
 
