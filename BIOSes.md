@@ -22,8 +22,10 @@ Warning: Linux is a case sensitive system. Please name BIOS files exactly accord
 | Nintendo - Famicom Disk System | disksys.rom | `ca30b50f880eb660a320674ed365ef7a` | |
 | Nintendo - Game Boy Advance | gba_bios.bin | `a860e8c0b6d573d191e4ec7db1b1e4f6`| |
 | Phillips - Videopac+ | o2rom.bin? | | Same as Magnavox Oddessy2? |
-| Sega - Dreamcast | dc_boot.bin | `e10c53c2f8b90bab96ead2d368858623` | Goes under `system/dc/` |
-| Sega - Dreamcast | dc_flash.bin | `0a93f7940c455905bea6e392dfde92a4` | Goes under `system/dc/` |
+| Sega - Dreamcast (reicast) | dc_boot.bin | `e10c53c2f8b90bab96ead2d368858623` | Goes under `system/dc/` |
+| Sega - Dreamcast (reicast) | dc_flash.bin | `0a93f7940c455905bea6e392dfde92a4` | Goes under `system/dc/` |
+| Sega - Dreamcast (redream) | boot.bin | `e10c53c2f8b90bab96ead2d368858623` | Goes under `system/dc/` |
+| Sega - Dreamcast (redream) | flash.bin | `0a93f7940c455905bea6e392dfde92a4` | Goes under `system/dc/` |
 | Sega - Mega Drive - Genesis | bios_CD_J.bin | `278a9397d192149e84e820ac621a8edd` | Japan |
 | Sega - Mega Drive - Genesis | bios_CD_U.bin | `2efd74e3232ff260e371b99f84024f7f` | USA |
 | Sega - Mega Drive - Genesis | bios_CD_E.bin | `e66fa1dc5820d254611fdcdba0662372` | Europe |
