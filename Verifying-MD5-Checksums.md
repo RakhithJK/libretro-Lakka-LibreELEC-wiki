@@ -32,5 +32,14 @@ md5sum should be available by default. If otherwise, install coreutils package.
 2. Type `md5`
 3. Drag and drop your file to the terminal then press `Enter`.
 
-###Online
+### Online
 Sums can be checked [online](https://lmddgtfy.net/?q=md5%20online), too.
+
+## DAT Verification
+
+You can verify all BIOS files automatically, with [BIOS.dat](https://github.com/libretro/libretro-database/blob/master/dat/BIOS.dat), through one of the following programs:
+
+- [clrmamepro](https://mamedev.emulab.it/clrmamepro/)
+- [ROMCenter](http://www.romcenter.com)
+- [ROMulus](http://romulus.net63.net/)
+- [RomVault](http://www.romvault.com/)
