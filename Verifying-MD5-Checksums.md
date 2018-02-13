@@ -1,5 +1,3 @@
-## Verifying BIOS MD5 checksums
-
 In order to ensure that you are using the correct BIOS file for a given system, we recommend verifying the MD5 checksum of a BIOS image against [the official MD5 checksums listed in the BIOS table](BIOSes#bios-requirements-table).
 
 ### Windows 10
