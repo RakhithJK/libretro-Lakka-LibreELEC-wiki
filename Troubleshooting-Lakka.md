@@ -10,6 +10,8 @@ When problems arise during the operation of Lakka, it can be helpful for the dev
 
 The information found in [Accessing the Lakka Command Line Interface](Accessing-Lakka-command-line-interface) can be very helpful during this process as well. The following procedures assume that the user has logged into Lakka via SSH.
 
+On PC (Generic) when booting from USB/SD card you may key in `live ssh` at the boot prompt to enable SSH service. You should be able to access the shell also in case RetroArch does not start and you cannot enable SSH service via the RetroArch GUI.
+
 ### Lakka system logs
 
 #### Option A: Copying from the terminal window
