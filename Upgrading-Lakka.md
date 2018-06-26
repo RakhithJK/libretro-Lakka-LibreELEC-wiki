@@ -19,7 +19,7 @@ You should see some messages about the upgrade process. After some seconds, your
 
 ### Manual updates
 
-1. Download the latest **img.gz** file corresponding to your hardware from [here](http://sources.lakka.tv/nightly/).
+1. Download the latest **img.gz** file corresponding to your hardware from [here](http://le.builds.lakka.tv/).
 2. Place this file in your **Storage** partition, in the .update folder, either using SAMBA or by mounting it
 3. Boot or reboot your hardware.
 
@@ -29,7 +29,7 @@ You should see some messages about the upgrade process. After some seconds, your
 
 This method works only for PC.
 
-1. Download the latest img.gz corresponding to your device from [here](http://sources.lakka.tv/nightly/)
+1. Download the latest img.gz corresponding to your device from [here](http://le.builds.lakka.tv/)
 2. Extract it
 3. Flash the image to a USB drive (all data will be lost)
 4. Plug the USB drive in your Lakka Box
