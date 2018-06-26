@@ -90,7 +90,7 @@ You're done.
   * If the controller had been previously paired with another device, you might need to press the reset button (look in the controller manual).
   * If the controller is not reconnecting after a reboot/shutdown it usually means the pairing didn't stick. Try to manually pair the controller with the following command:
 
-    pair <device_addr>
+        pair <device_addr>
 
 ## Configuring the controller
 
