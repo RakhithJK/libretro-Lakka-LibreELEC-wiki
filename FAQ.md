@@ -139,10 +139,10 @@ You can change default setting for the ribbon via the Setting Tab > Menu > Menu 
 ### Lakka doesn't expose RetroArch Online Updater (buildbot). Why?
 
  * Some cores from the buildbot are crashing or have glitches when used in Lakka
- * Lakka's toolchain cross compile each core with different flags and optimizations for each board, resulting in a speed boost
- * Lakka is delivered batteries included, and doesn't require internet connection to play games
- * Having monolithic upgrades ensures integration between cores, core info files, and database files
- * If one day the buildbot is down or unmaintained, a Lakka image would remain usable
+ * Lakka's toolchain cross compile each core with different flags and optimizations for each board, resulting in a speed boost.
+ * Lakka is delivered batteries included, and doesn't require internet connection to play games. The only action required from the user is to provide the games.
+ * Having monolithic upgrades ensures integration between cores, core info files, and database files. Allowing to add new cores would result in black square for missing icons, inability to scan game collection for this new core, etc. 
+ * If one day the buildbot is down or unmaintained, a Lakka image would remain usable forever.
  * It allows OEM to pack only the cores they care about
  * We can make sure that the cores in the system are all in their stable and tested version, VS the bleeding edge version
  * When a user reports a bug, we can determine the exact version of every core the user had on his system just by knowing his version of the system, which simplifies support a lot
