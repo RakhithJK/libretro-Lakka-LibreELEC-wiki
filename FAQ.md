@@ -135,3 +135,15 @@ Probably a graphics card [issue](https://github.com/libretro/Lakka/issues). Regi
 
 ### Menu XMB is too slow
 You can change default setting for the ribbon via the Setting Tab > Menu > Menu Shader Pipeline to Ribbon (Simplified) or  Off which corresponds to the entry `menu_shader_pipeline = "1"` and `menu_shader_pipeline = "O"` for the configuration file. At last, you can switch to menu RGUI via Setting Tab > Driver > Menu Driver > rgui.
+
+### Lakka doesn't expose RetroArch Online Updater (buildbot). Why?
+
+ * Some cores from the buildbot are crashing or have glitches when used in Lakka
+ * Lakka's toolchain cross compile each core with different flags and optimizations for each board, resulting in a speed boost
+ * Lakka is delivered batteries included, and doesn't require internet connection to play games
+ * Having monolithic upgrades ensures integration between cores, core info files, and database files
+ * If one day the buildbot is down or unmaintained, a Lakka image would remain usable
+ * It allows OEM to pack only the cores they care about
+ * We can make sure that the cores in the system are all in their stable and tested version, VS the bleeding edge version
+ * When a user reports a bug, we can determine the exact version of every core the user had on his system just by knowing his version of the system, which simplifies support a lot
+ * Upgrading the system, the assets, the database, the cores, the shaders, is achieved with a single user action
