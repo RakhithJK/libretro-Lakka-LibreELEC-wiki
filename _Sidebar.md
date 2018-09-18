@@ -4,6 +4,7 @@
 * [Glossary](Glossary)
 * [Hardware support](Hardware-support)
 * [Downloading and installing a prebuilt image](http://www.lakka.tv/get)
+* [Alternative image flashing methods](Alternative-image-flashing-methods)
 * [Alternative installation methods](Alternative-installation-methods)
 * [Upgrading Lakka](Upgrading-Lakka)
 * [Accessing Lakka filesystem](Accessing-Lakka-filesystem)
