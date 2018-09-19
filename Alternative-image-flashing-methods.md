@@ -68,6 +68,9 @@ Wait for the prompt and you can unplug your USB thumb drive / eject your SD card
 
 # MacOS
 
+## Decompressing the downloaded Lakka image
+Navigate to the location where you have downloaded the Lakka image. Double click the file to decompress it.
+
 ## Determining your SD/USB drive
 First, you need to know the location of your your SD/USB drive. Open a Console and list your current drives and partitions before inserting the SD card / USB thumb drive:
 ```
