@@ -17,6 +17,7 @@ Plug in your SD card / USB thumb drive. Windows should give you the drive letter
 Run the Win32DiskImager utility. Click on the folder icon below "Image File" and select the decompressed image file (`Lakka-*.img`). Under "Device" select the drive letter of your SD card / USB thumb drive. **Selecting incorrect letter can lead to erasing either your hard drive or any other device!** Click on the "Write" button. Wait until the writing process is finished and disconnect your SD card / USB thumb drive.
 
 # Linux
+
 ## Decompress the downloaded Lakka image file
 The downloaded image file is compressed using `gzip`, so it must be decompressed. We assume that you downloaded the file to your `~/Downloads` folder:
 ```
