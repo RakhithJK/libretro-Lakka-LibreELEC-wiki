@@ -20,52 +20,51 @@ Run the Win32DiskImager utility. Click on the folder icon below "Image File" and
 
 ## Decompress the downloaded Lakka image file
 The downloaded image file is compressed using `gzip`, so it must be decompressed. We assume that you downloaded the file to your `~/Downloads` folder:
-```
-$ cd ~/Downloads
-$ gunzip Lakka-*.img.gz
-```
+
+     $ cd ~/Downloads
+     $ gunzip Lakka-*.img.gz
 
 ## Determining the SD/USB drive
 Now list your current drives and partitions before you plug in your SD card / USB thumb drive:
-```
-$ ls -l /dev/sd*
-```
+
+     $ ls -l /dev/sd*
+
 You will see a list of disks/partitions similar to following:
-```
-brw-rw----. 1 root disk 8,  0 Sep 16 18:09 /dev/sda
-brw-rw----. 1 root disk 8,  1 Sep 16 18:09 /dev/sda1
-brw-rw----. 1 root disk 8,  2 Sep 16 18:09 /dev/sda2
-brw-rw----. 1 root disk 8,  3 Sep 16 18:09 /dev/sda3
-brw-rw----. 1 root disk 8,  4 Sep 16 18:09 /dev/sda4
-```
+
+     brw-rw----. 1 root disk 8,  0 Sep 16 18:09 /dev/sda
+     brw-rw----. 1 root disk 8,  1 Sep 16 18:09 /dev/sda1
+     brw-rw----. 1 root disk 8,  2 Sep 16 18:09 /dev/sda2
+     brw-rw----. 1 root disk 8,  3 Sep 16 18:09 /dev/sda3
+     brw-rw----. 1 root disk 8,  4 Sep 16 18:09 /dev/sda4
+
 In this case there is one disk _/dev/sda_ with 4 partitions _/dev/sda1_ to _/dev/sda4_. Your output might be different depending on number of drives and partitions.
 Now plug in your SD card / USB thumb drive and type again:
-```
-ls -l /dev/sd*
-```
+
+     ls -l /dev/sd*
+
 Once again the same disks/partitions will be shown, but there will be new disk with its partitions:
-```
-brw-rw----. 1 root disk 8,  0 Sep 16 18:09 /dev/sda
-brw-rw----. 1 root disk 8,  1 Sep 16 18:09 /dev/sda1
-brw-rw----. 1 root disk 8,  2 Sep 16 18:09 /dev/sda2
-brw-rw----. 1 root disk 8,  3 Sep 16 18:09 /dev/sda3
-brw-rw----. 1 root disk 8,  4 Sep 16 18:09 /dev/sda4
-brw-rw----. 1 root disk 8, 16 Sep 18 23:12 /dev/sdb
-brw-rw----. 1 root disk 8, 17 Sep 18 23:12 /dev/sdb1
-brw-rw----. 1 root disk 8, 18 Sep 18 23:12 /dev/sdb2
-```
+
+     brw-rw----. 1 root disk 8,  0 Sep 16 18:09 /dev/sda
+     brw-rw----. 1 root disk 8,  1 Sep 16 18:09 /dev/sda1
+     brw-rw----. 1 root disk 8,  2 Sep 16 18:09 /dev/sda2
+     brw-rw----. 1 root disk 8,  3 Sep 16 18:09 /dev/sda3
+     brw-rw----. 1 root disk 8,  4 Sep 16 18:09 /dev/sda4
+     brw-rw----. 1 root disk 8, 16 Sep 18 23:12 /dev/sdb
+     brw-rw----. 1 root disk 8, 17 Sep 18 23:12 /dev/sdb1
+     brw-rw----. 1 root disk 8, 18 Sep 18 23:12 /dev/sdb2
+
 In this case it is the disk _/dev/sdb_ with 2 partitions _/dev/sdb1_ to _/dev/sdb2_. This means, that _/dev/sdb_ represents the SD card / USB thumb drive. Please note your identifier.
 
 ## Flashing the image
 Now that you know your SD card / USB thumb drive identifier, you can flash the image to it.
 **Please note that dd is a very dangerous command: if you give it the wrong drive identifier, it could erase your hard drive instead of the SD card / USB thumb drive!**
-```
-$ sudo dd if=Lakka-*.img of=/dev/sdX status=progress
-```
+
+     $ sudo dd if=Lakka-*.img of=/dev/sdX status=progress
+
 Replace _/dev/sdX_ with your location noted in previous step, e.g. _/dev/sdb_. It should take a few minutes. Once done, type following:
-```
-$ sync
-```
+
+     $ sync
+
 Wait for the prompt and you can unplug your USB thumb drive / eject your SD card.
 
 # MacOS
@@ -75,61 +74,61 @@ Navigate to the location where you have downloaded the Lakka image. Double click
 
 ## Determining your SD/USB drive
 First, you need to know the location of your your SD/USB drive. Open a Console and list your current drives and partitions before inserting the SD card / USB thumb drive:
-```
-$ diskutil list
-```
+
+     $ diskutil list
+
 It will show output similar to this:
-```
-/dev/disk0
-   #:                       TYPE NAME                     SIZE      IDENTIFIER
-   0:     GUID_partitions_scheme                        *121.3 GB   disk0
-   1:                        EFI                         209.7 MB   disk0s1
-   2:                  Apple_HFS                         67.9 GB    disk0s2
-   3:                  Apple_HFS Linux Boot Loader fr... 134.2 MB   disk0s3
-   4:                  Apple_HFS MacOS                   52.4 GB    disk0s4
-   5:                 Apple_Boot Recovery HD             650.0 MB   disk0s5
-```
+
+     /dev/disk0
+        #:                       TYPE NAME                     SIZE      IDENTIFIER
+        0:     GUID_partitions_scheme                        *121.3 GB   disk0
+        1:                        EFI                         209.7 MB   disk0s1
+        2:                  Apple_HFS                         67.9 GB    disk0s2
+        3:                  Apple_HFS Linux Boot Loader fr... 134.2 MB   disk0s3
+        4:                  Apple_HFS MacOS                   52.4 GB    disk0s4
+        5:                 Apple_Boot Recovery HD             650.0 MB   disk0s5
+
 In this case _disk0_ is the internal hard drive with 5 partitions _disk0s1_ to _disk0s5_. Now plug in your SD card / USB thumb drive and type again:
-```
-$ diskutil list
-```
+
+     $ diskutil list
+
 The output should show one new drive:
-```
-/dev/disk0
-   #:                       TYPE NAME                    SIZE       IDENTIFIER
-   0:     GUID_partitions_scheme                        *121.3 GB   disk0
-   1:                        EFI                         209.7 MB   disk0s1
-   2:                  Apple_HFS                         67.9 GB    disk0s2
-   3:                  Apple_HFS Linux Boot Loader fr... 134.2 MB   disk0s3
-   4:                  Apple_HFS MacOS                   52.4 GB    disk0s4
-   5:                 Apple_Boot Recovery HD             650.0 MB   disk0s5
-/dev/disk1
-   #:                       TYPE NAME                    SIZE       IDENTIFIER
-   0:     FDisk_partition_scheme                        *2.0 GB     disk1
-   1:             Windows_FAT_32 System                  131.1 MB   disk1s1
-   2:                      Linux                         1.8 GB     disk1s2
-```
+
+     /dev/disk0
+        #:                       TYPE NAME                    SIZE       IDENTIFIER
+        0:     GUID_partitions_scheme                        *121.3 GB   disk0
+        1:                        EFI                         209.7 MB   disk0s1
+        2:                  Apple_HFS                         67.9 GB    disk0s2
+        3:                  Apple_HFS Linux Boot Loader fr... 134.2 MB   disk0s3
+        4:                  Apple_HFS MacOS                   52.4 GB    disk0s4
+        5:                 Apple_Boot Recovery HD             650.0 MB   disk0s5
+     /dev/disk1
+        #:                       TYPE NAME                    SIZE       IDENTIFIER
+        0:     FDisk_partition_scheme                        *2.0 GB     disk1
+        1:             Windows_FAT_32 System                  131.1 MB   disk1s1
+        2:                      Linux                         1.8 GB     disk1s2
+
 So the identifier of the SD card / USB thumb drive is in this case _/dev/disk1_. Please note your identifier.
 
 ## Flashing the image
 Now that you know your SD card / USB thumb drive location, you can flash the image to it.Go to the folder where you have extracted the downloaded file (`cd /path/to_the/location`).
 **Please note that dd is a very dangerous command: if you give it the wrong drive identifier, it could erase your hard drive instead of the SD card!**
-```
-$ sudo dd if=Lakka-*.img of=/dev/diskX
-```
+
+     $ sudo dd if=Lakka-*.img of=/dev/diskX
+
 Replace _/dev/diskX_ with your identifier noted in previous step, e.g. _/dev/disk1_. It should take a few minutes until similar message is shown:
-```
-327680+0 records in
-327680+0 records out
-167772160 bytes transferred in 179.500632 secs (934661 bytes/sec)
-```
+
+     327680+0 records in
+     327680+0 records out
+     167772160 bytes transferred in 179.500632 secs (934661 bytes/sec)
+
 Once done, you can unplug your USB thumb drive / eject your SD card.
 If you get this error:
-```
-dd: /dev/diskXsN: Resource busy
-```
+
+     dd: /dev/diskXsN: Resource busy
+
 You have to unmount every partition of your SD card / USB thumb drive. This can be done with:
-```
-$ diskutil unmountDisk /dev/diskX
-```
+
+     $ diskutil unmountDisk /dev/diskX
+
 And then you can retry.
