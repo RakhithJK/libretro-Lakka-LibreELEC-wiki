@@ -1,4 +1,5 @@
 It is recommended to use [Etcher](https://etcher.io/) to flash the Lakka images. If it is not possible to use Etcher, follow the methods below based on your operating system.
+
 # Windows
 On Windows you will need two additional tools, that can:
 - decompress .gz files (in this example we will use [7-Zip](https://www.7-zip.org/))
