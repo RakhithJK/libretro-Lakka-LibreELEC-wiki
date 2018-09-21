@@ -21,7 +21,10 @@ On PC (Generic) when booting from USB/SD card you may key in `live ssh` at the b
 
 #### Option B: Creating a log file
 
-1. Restart the `retroarch` service in 'verbose' mode with this command: `systemctl stop retroarch.service ; LIBGL_DEBUG=verbose retroarch --menu --verbose >> log.txt 2>&1`.
+1. Restart the `retroarch` service in 'verbose' mode with this command:
+
+     systemctl stop retroarch.service ; LIBGL_DEBUG=verbose retroarch --menu --verbose >> log.txt 2>&1
+
 2. The file `log.txt` is now stored in the home directory. You can now copy the log file off of the Lakka system via an [SCP file transfer](Accessing-Lakka-filesystem#file-transfer-via-scp).
 
 ### Graphic card logs
@@ -39,17 +42,17 @@ On PC (Generic) when booting from USB/SD card you may key in `live ssh` at the b
 ### Saving logs
 
 If you are unable to copy-paste the output, e.g. you have access only to the local terminal and you cannot read ext4  (`/storage`, `LAKKA_DISK`) partition on your system, you can redirect the output of the logs to the FAT32 (`/flash`, `LAKKA`) partition. You only have to remount the partition into read-write mode:
-```
-mount -o remount,rw /flash
-```
+
+     mount -o remount,rw /flash
+
 Then to save the logs to this partition, just redirect the output to a file on this partition, i.e. replace the redirection from:
-```
-command --parameter > log.txt 2>&1
-                      ^^^^^^^
-```
+
+     command --parameter > log.txt 2>&1
+                           ^^^^^^^
+
 to:
-```
-command --parameter > /flash/log.txt 2>&1
-                      ^^^^^^^^^^^^^^
-```
+
+     command --parameter > /flash/log.txt 2>&1
+                           ^^^^^^^^^^^^^^
+
 The logs will be saved on the FAT32 partition, so you can easily get to them when you plug in your USB thumb drive / SD card to your computer.
