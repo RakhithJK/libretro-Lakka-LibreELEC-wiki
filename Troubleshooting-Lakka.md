@@ -23,7 +23,7 @@ On PC (Generic) when booting from USB/SD card you may key in `live ssh` at the b
 
 1. Restart the `retroarch` service in 'verbose' mode with this command:
 
-     systemctl stop retroarch.service ; LIBGL_DEBUG=verbose retroarch --menu --verbose >> log.txt 2>&1
+       systemctl stop retroarch.service ; LIBGL_DEBUG=verbose retroarch --menu --verbose >> log.txt 2>&1
 
 2. The file `log.txt` is now stored in the home directory. You can now copy the log file off of the Lakka system via an [SCP file transfer](Accessing-Lakka-filesystem#file-transfer-via-scp).
 
