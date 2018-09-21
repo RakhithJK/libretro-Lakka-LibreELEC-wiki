@@ -16,7 +16,10 @@ On PC (Generic) when booting from USB/SD card you may key in `live ssh` at the b
 
 #### Option A: Copying from the terminal window
 
-1. Restart the `retroarch` service in 'verbose' mode with this command: `systemctl stop retroarch.service ; retroarch -v`.
+1. Restart the `retroarch` service in 'verbose' mode with this command:
+
+       systemctl stop retroarch.service ; retroarch -v
+
 2. Keep the terminal window open. After the service restarts, the system log will begin appearing in the window where it can be copy-pasted to another location.
 
 #### Option B: Creating a log file
