@@ -97,11 +97,11 @@ Plug your SD card into your computer, in the System partition (FAT32) you will f
 ### I use Raspberry Pi on a TV connected by HDMI, and get no audio.
 
 This can happen on some TVs. 
-Mount your SD card and check that *hdmi_drive=2* is in config.txt and uncommented. This will force the sound to be sent over HDMI no matter what the TV says.
+Mount your SD card and check that *hdmi_drive=2* is in distroconfig.txt and uncommented. This will force the sound to be sent over HDMI no matter what the TV says.
 
 ### I use Raspberry Pi with an HDMI to DVI adapter, why does it not boot?
 
-Mount your SD card and remove or comment *hdmi_drive=2* in config.txt.
+Mount your SD card and remove or comment *hdmi_drive=2* in distroconfig.txt.
 
 ### When I Use Raspberry Pi on some particular TV, everything is slow, why?
 
