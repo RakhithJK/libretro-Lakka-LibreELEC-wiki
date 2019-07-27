@@ -10,7 +10,7 @@ If your joypad is already supported, it will work out of the box. Otherwise you 
 
 When configuring a joypad, keep in mind that RetroArch joypad abstraction is inspired by the SNES pad for the placement of the buttons ABXY:
 
-![RetroPad](http://www.lakka.tv/images/Retropad_360pad.png)
+![RetroPad](https://www.lakka.tv/images/Retropad_360pad.png)
 
 ## Binding a joypad
 
