@@ -40,4 +40,5 @@ If the mount was successful, the volume will be mounted automatically from now o
 
 NFS works exactly the same, except you have to use:
 
+    What=192.168.0.31:/roms
     Type=nfs
