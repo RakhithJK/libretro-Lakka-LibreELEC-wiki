@@ -62,7 +62,7 @@ You can also press *select* over an item to get a description of what it does.
 
 ### How do I use the jack audio output on RPi?
 
-Jack audio output should work out of the box as long as you use an HDMI2DVI converter. If you are using a real HDMI wire and TV, you can plug your headphones in the TV. However, there might be a way to configure the RPi to force jack audio output in the config.txt file on the System partition.
+Jack audio output should work out of the box as long as you use an HDMI2DVI converter. If you are using a real HDMI wire and TV, you can plug your headphones in the TV. However, there might be a way to configure the RPi to force jack audio output in the `config.txt` file on the System partition.
 
 ### How do I use the jack audio output on Cubieboard, Banana Pi, Cuboxi, Hummingboard...?
 
@@ -90,24 +90,24 @@ Please see the documentation for [Troubleshooting Lakka](Troubleshooting-Lakka).
 
 ### How do I overclock Raspberry Pi CPU?
 
-Plug your SD card into your computer, in the System partition (FAT32) you will find a config.txt file where you can uncomment some lines to enable overclocking. 
+Plug your SD card into your computer, in the System partition (FAT32) you will find a `config.txt` file where you can uncomment some lines to enable overclocking. 
 
 **Please note**: While overclocking _may_ give you better performance, it is done at your own risk and Lakka is not responsible for any damage you do to your RPi/boards. 
 
 ### I use Raspberry Pi on a TV connected by HDMI, and get no audio.
 
 This can happen on some TVs. 
-Mount your SD card and check that *hdmi_drive=2* is in distroconfig.txt and uncommented. This will force the sound to be sent over HDMI no matter what the TV says.
+Mount your SD card and check that `hdmi_drive=2` is in `config.txt` and uncommented. This will force the sound to be sent over HDMI no matter what the TV says.
 
 ### I use Raspberry Pi with an HDMI to DVI adapter, why does it not boot?
 
-Mount your SD card and remove or comment *hdmi_drive=2* in distroconfig.txt.
+Mount your SD card and remove or comment `hdmi_drive=2` in `config.txt`.
 
 ### When I Use Raspberry Pi on some particular TV, everything is slow, why?
 
 In Settings -> Video Settings, disable VSync.
 
-Or manually set *vsync = "false"* in /storage/.config/retroarch/retroarch.cfg
+Or manually set `vsync = "false"` in `/storage/.config/retroarch/retroarch.cfg`
 
 ### How do I develop games for Lakka?
 
