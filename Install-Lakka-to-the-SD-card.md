@@ -9,7 +9,7 @@ This tool is called Win32DiskImager and is free.
 
 ### Setup Windows image flasher utility
 
-![Win32 Disk Imager Installation utility](http://www.lakka.tv/images/win32diskmanager1.png)
+![Win32 Disk Imager Installation utility](https://www.lakka.tv/images/win32diskmanager1.png)
 
 ### Determine your SD card drive
 
@@ -21,7 +21,7 @@ You will see a new drive appearing in your File Manager.
 
 Run the Win32DiskImager you just installed.
 
-![Win32 Disk Imager](http://www.lakka.tv/images/win32diskmanager2.png)
+![Win32 Disk Imager](https://www.lakka.tv/images/win32diskmanager2.png)
 
 Select Lakka and the SD card drive, and hit the Write button.
 
