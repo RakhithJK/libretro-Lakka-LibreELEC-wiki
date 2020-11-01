@@ -7,22 +7,16 @@ This [commit](https://github.com/lakkatv/Lakka/commit/a260552d472c81e81990d55d00
 
 ## Hosting your local packages
 
-The build scripts expect tar.xz packages to be served by HTTP.  
-However, most libretro cores are not distributed as tar.xz, and we prefer to use
-git versions. For this, some scripts are here to clone the repos, update it and
-create the tar.xz.
+The build scripts expect tar.xz packages to be served by HTTP. However, most libretro cores are not distributed as tar.xz, and we prefer to use git versions. For this, some scripts are here to clone the repos, update it and create the tar.xz.
 
-Examples scripts are located in tools/mkpkg/, they are pretty straigh forward
-and almost all the same (but not always) so you can just copy it and adapt it to
-your needs.
+Examples scripts are located in tools/mkpkg/, they are pretty straight forward and almost all the same (but not always) so you can just copy it and adapt it to your needs.
 
-    $ ./Lakka/tools/mkpkg/mkpkg_gpsp
+    $ tools/mkpkg/mkpkg_gpsp
     $ mv gpsp-*.tar.xz /path/to/your/www/
 
 ## Writing the package.mk
 
-Reading the other packages located in packages/lakka should give you enough
-knowledge to start packaging new cores.
+Reading the other packages located in packages/lakka should give you enough knowledge to start packaging new cores.
 
 Here is an example package:
 
@@ -72,16 +66,14 @@ Here is an example package:
       cp svn-current/trunk/fb_alpha_libretro.so $INSTALL/usr/lib/libretro/
     }
 
-Once written, you need to add your package as dependancy of the metapackage of
-your project. For example, if your package is for the RPi project, add it to the
-list in packages/lakka/RPi/package.mk.
+Once written, you need to add your package as dependancy of the metapackage of your project. For example, if your package is for the RPi project, add it to the list in packages/lakka/RPi/package.mk.
 
 ## Forcing rebuild of a package
 
 If you need to force the rebuild a certain package, you can use the following scripts
 
-    DISTRO=Lakka PROJECT=RPi ARCH=arm scripts/clean snes9x
-    DISTRO=Lakka PROJECT=RPi ARCH=arm scripts/build snes9x
-    DISTRO=Lakka PROJECT=RPi ARCH=arm scripts/install snes9x
+    DISTRO=Lakka PROJECT=RPi DEVICE=RPi ARCH=arm scripts/clean snes9x
+    DISTRO=Lakka PROJECT=RPi DEVICE=RPi ARCH=arm scripts/build snes9x
+    DISTRO=Lakka PROJECT=RPi DEVICE=RPi ARCH=arm scripts/install snes9x
 
 Adapt the values to your case.
