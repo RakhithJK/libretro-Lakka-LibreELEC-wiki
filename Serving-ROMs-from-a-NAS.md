@@ -8,9 +8,11 @@ Create the mount point folder:
 
 Create the mount unit:
 
-    nano /storage/.config/system.d/storage-roms-nas.mount 
+    nano /storage/.config/system.d/storage-roms-nas.mount
 
 Save and exit: `CTRL+O` then `Enter` to save, then `CTRL+X` to exit
+
+**Note:** The file name of the mount unit must match the path to the mount point (slashes are replaced with dashes, as in the above example - mount point: `/storage/roms/nas` -> unit file name: `storage-roms-nas.mount`)
 
 Add this content, replacing placeholders with your IP, username and password information:
 
