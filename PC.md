@@ -37,7 +37,7 @@ Then reboot.
 
 ## Gigabyte Brix
 
-Lakka appears to work quite well on the Gigabyte Brix, however there area couple of caveats.
+Lakka appears to work quite well on the Gigabyte Brix, however there are a couple of caveats.
 
 * Make sure that the bios is updated to F8, and set in Windows 7 and CSM mode enabled.
 * Use the normal bios build, not the EFI build.
