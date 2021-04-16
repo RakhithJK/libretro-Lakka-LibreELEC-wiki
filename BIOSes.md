@@ -1,10 +1,10 @@
 Some libretro cores require a [BIOS](https://en.wikipedia.org/wiki/BIOS) to work.
 
-BIOSes must be placed in the [system folder](http://www.lakka.tv/doc/Accessing-Lakka-filesystem/) although there are certain exceptions described in the table below.
+BIOSes must be placed in the [system folder](Accessing-Lakka-filesystem) although there are certain exceptions described in the table below.
 
 ## BIOS requirements table
 
-This table shows the required BIOS for each system. You'll find up-to-date information [here](https://github.com/libretro/libretro-super/tree/master/dist/info) and [here](https://github.com/libretro/libretro-database/blob/master/dat/BIOS.dat).
+This table shows the required BIOS for each system. You'll find up-to-date information [here](https://github.com/libretro/libretro-super/tree/master/dist/info).
 
 Warning: Linux is a case sensitive system. Please name BIOS files exactly according to this table.
 
