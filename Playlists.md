@@ -1,4 +1,4 @@
-Playlists are the lists of games displayed under each joypad icon in the Lakka graphical interface. Playlists can be generated automatically by the ROM scanning process or be created by users and uploaded to the Lakka device. Playlists are located within the **playlists** folder [which is accessible via SAMBA](http://www.lakka.tv/doc/Accessing-Lakka-filesystem/). 
+Playlists are the lists of games displayed under each joypad icon in the Lakka graphical interface. Playlists can be generated automatically by the ROM scanning process or be created by users and uploaded to the Lakka device. Playlists are located within the **playlists** folder [which is accessible via SAMBA](Accessing-Lakka-filesystem). 
 
 ## Automatic playlist generation
 
