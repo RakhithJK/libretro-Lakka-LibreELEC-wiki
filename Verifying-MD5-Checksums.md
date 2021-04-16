@@ -35,7 +35,7 @@ Sums can be checked [online](https://lmddgtfy.net/?q=md5%20online), too.
 
 ## DAT Verification
 
-You can verify all BIOS files automatically, with [BIOS.dat](https://github.com/libretro/libretro-database/blob/master/dat/BIOS.dat), through one of the following programs:
+You can verify all BIOS files automatically, with [System.dat](https://github.com/libretro/libretro-database/blob/master/dat/System.dat), through one of the following programs:
 
 - [clrmamepro](https://mamedev.emulab.it/clrmamepro/)
 - [ROMCenter](http://www.romcenter.com)
