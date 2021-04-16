@@ -4,7 +4,7 @@ BIOSes must be placed in the [system folder](Accessing-Lakka-filesystem) althoug
 
 ## BIOS requirements table
 
-This table shows the required BIOS for each system. You'll find up-to-date information [here](https://github.com/libretro/libretro-super/tree/master/dist/info).
+This table shows the required BIOS for each system. You'll find up-to-date information [here](https://github.com/libretro/libretro-super/tree/master/dist/info) and [here](https://github.com/libretro/libretro-database/blob/master/dat/System.dat).
 
 Warning: Linux is a case sensitive system. Please name BIOS files exactly according to this table.
 
