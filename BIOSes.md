@@ -41,4 +41,3 @@ Warning: Linux is a case sensitive system. Please name BIOS files exactly accord
 | Sony - PlayStation | scph5500.bin | `8dd7d5296a650fac7319bce665a6a53c` | Japan |
 | Sony - PlayStation | scph5501.bin | `490f666e1afb15b7362b406ed1cea246` | USA (Can be renamed from scph7003.bin) |
 | Sony - PlayStation | scph5502.bin | `32736f17079d0b2b7024407c39bd3050` | Europe |
-| Sony - PlayStation Portable | [PPSSPP Assets](https://docs.libretro.com/library/ppsspp/#bios) | | Goes under `system/PPSSPP/` |
