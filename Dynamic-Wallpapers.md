@@ -12,7 +12,7 @@ Then, you must go to the `Directory` settings and set your `Dynamic Wallpapers D
 
 Currently, three wallpaper themes are provided in the default installation of Lakka. They are located in the directory `/tmp/assets/wallpapers`. Each wallpaper theme has a subfolder labelled by its image resolution.
 
-##Setting the wallpaper directory:##
+## Setting the wallpaper directory:
 
 1. From within Lakka's wallpaper directory configuration menu, navigate to the `tmp` folder, then navigate to `assets`, followed by `wallpapers`.
 1. Select the theme you would like to use, for example `bichromatic pads`, by entering the corresponding folder.
