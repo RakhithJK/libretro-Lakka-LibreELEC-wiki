@@ -31,6 +31,12 @@ Add this content, replacing placeholders with your IP, username and password inf
     [Install]
     WantedBy=multi-user.target
 
+**Note:** If the server does not support samba version 2 or higher, you have to add `vers=1` to the `Options` line:
+
+    ...
+    Options=username=myusername,password=mypassword,rw,vers=1
+    ...
+
 Enable and start the service:
 
     systemctl enable storage-roms-nas.mount
