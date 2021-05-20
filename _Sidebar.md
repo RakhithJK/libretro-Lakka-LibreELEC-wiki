@@ -45,6 +45,7 @@
  * [S912](S912)
  * [WeTek Play](WeTek-Play)
  * [WeTek Core](WeTek-Core)
+ * [Nintendo Switch](Nintendo-Switch)
 
 ## Emulator tips
 
