@@ -6,7 +6,7 @@ Lakka can use only one of these cards at a time. So if you get no sound, it mean
 
 ## Switching audio device from the GUI
 
-In recent versions of Lakka, you can go to the **Audio Settings** and switch the **Audio Device** using the left and right keys. You need to restart RetroArch for this change to take effect.
+In recent versions of Lakka, you can go to the **Audio Settings** and switch the **Audio Device** using the left and right keys. You need to restart RetroArch for this change to take effect. Press Start to reset it.
 
 ![Setting the audio device](images/audio_device.gif)
 
