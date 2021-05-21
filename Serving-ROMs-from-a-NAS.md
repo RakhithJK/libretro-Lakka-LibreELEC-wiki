@@ -37,6 +37,8 @@ Add this content, replacing placeholders with your IP, username and password inf
     Options=username=myusername,password=mypassword,rw,vers=1
     ...
 
+For CIFS 3.0 the `Options` have to be adjusted accordingly, i.e. `vers=3.0`.
+
 Enable and start the service:
 
     systemctl enable storage-roms-nas.mount
