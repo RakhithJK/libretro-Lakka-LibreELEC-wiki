@@ -95,7 +95,7 @@ Next time you hit the Playstation button it will connect without asking anything
 
   * Make sure the battery on the controller is decently charged.
 
-  * If the controller had been previously paired with another device, you might need to press the [reset button](https://i.imgur.com/A7NCtlr.png) with a paper clip.
+  * If the controller had been previously paired with another device, you might need to press the [reset button](images/wireless-dualshock-reset-button.png) with a paper clip.
 
   * Make sure you're using a working (and data-carrying) USB cable. You can assess that by following these steps:
       - Plug in the cable and connect the controller
@@ -109,7 +109,7 @@ Next time you hit the Playstation button it will connect without asking anything
       - Rattling inside
       - Relatively loud clicks when pressing the nubs
       - Rough edges
-      - Spelling mistake on the [back label](https://i.imgur.com/ueCMGK7.jpg) (However, having a different label design isn't a telltale sign of a counterfeit pad)
+      - Spelling mistake on the [back label](images/fake-ds-back-label.jpg) (However, having a different label design isn't a telltale sign of a counterfeit pad)
 
 ## Configuring the controller
 
