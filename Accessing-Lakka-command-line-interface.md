@@ -32,22 +32,20 @@ Use putty to connect your Lakka box, enter the IP of your box in the hostname fi
 
 ## Direct access
 
-Warning: This doesn't work for Raspberry Pi
-
-You will need to edit the cmdline passed to the kernel by the bootloader, in order to enable the **tty service** and disable the **retroarch service**. You will also need to plug an USB keyboard to switch to tty3 and type commands.
+You will need to edit the cmdline passed to the kernel by the bootloader, in order to enable the **console service** and disable the **retroarch service**. You will also need to plug a keyboard to type any commands.
 
 ### Editing the cmdline
 
 You have to ensure that these options are present in the [cmdline](The-bootloader):
 
-    tty retroarch=0
+    textmode retroarch=0
 
- * `tty` will enable the console service
+ * `textmode` will enable the console service
  * `retroarch=0` will disable the retroarch service
 
-### Switching to tty3
+### Booting to console
 
-Once the system is booting, you will not see RetroArch launching. It's normal, since we disabled retroarch service. You then need to switch to tty3 by hitting **CTRL + ALT + F3**. You will get a command prompt and be able to type commands.
+Once the system is booting, you will not see RetroArch launching. It's normal, since we disabled retroarch service. AFter the boot process is complete, you will see shell prompt. Execute `systemctl start retroarch.target` to make sure that all services/mounts needed for RetroArch (the UI) are running, especially the overlayfs mounts in `/tmp` (use `mount` or `df -h` to see available mounts).
 
 ## Serial
 
