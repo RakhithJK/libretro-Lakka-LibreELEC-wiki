@@ -6,6 +6,10 @@ When problems arise during the operation of Lakka, it can be helpful for the dev
 4. The name of the libretro core used
 5. The version of Lakka you are using
 
+## Automated collection of relevant logs
+
+Since version 3.2 it is possible to collect all troubleshooting logs using one single script. You only need to [access the Lakka command line interface](Accessing-Lakka-command-line-interface) and run `createlog`. The script will create an archive with logs, which you can then either access on your SD card, via networks share or upload.
+
 ## Introduction to Lakka logs
 
 The information found in [Accessing the Lakka Command Line Interface](Accessing-Lakka-command-line-interface) can be very helpful during this process as well. The following procedures assume that the user has logged into Lakka via SSH.
