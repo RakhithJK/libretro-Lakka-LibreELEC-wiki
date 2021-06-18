@@ -8,7 +8,7 @@ When problems arise during the operation of Lakka, it can be helpful for the dev
 
 ## Automated collection of relevant logs
 
-Since version 3.2 it is possible to collect all troubleshooting logs using one single script. You only need to [access the Lakka command line interface](Accessing-Lakka-command-line-interface) and run `createlog`. The script will create an archive with logs, which you can then either access on your SD card, via networks share or upload.
+Since version 3.2 it is possible to collect all troubleshooting logs using one single script. You only need to [access the Lakka command line interface](Accessing-Lakka-command-line-interface) and run `createlog`. The script will create an archive with logs, which you can then either access on your SD card, via network share or upload.
 
 ## Introduction to Lakka logs
 
