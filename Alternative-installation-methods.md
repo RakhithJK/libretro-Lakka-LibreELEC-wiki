@@ -2,16 +2,23 @@ For the Raspberry Pi, there are two alternative installation methods that allows
 
 ## NOOBS
 
-Works for RPi1 and RPi2.
+Works for RPi1, RPi2, RPi3 and RPi4.
 
 <http://www.raspberrypi.org/help/noobs-setup/>
 
  1. Format your SD card as FAT32
- 2. Download NOOBS lite from here <http://www.raspberrypi.org/downloads/>
- 3. Extract NOOBS lite to your SD card
- 4. Get the latest __Lakka-RPi.*-noobs.tar__ from here <http://sources.lakka.tv/nightly/RPi.arm/>
- 5. Extract __Lakka-RPi.*-noobs.tar__ to the __os__ folder in your SD card
- 6. Boot your RPi with your SD card, Lakka should appear in the OS list
+ 2. Download NOOBS Lite from here <http://www.raspberrypi.org/downloads/>
+ 3. Extract NOOBS Lite to your SD card
+ 4. Open the website: <https://le-builds.lakka.tv/noobs/>
+ 5. Enter the folder matching your RPi:
+ * RPi1: <https://le-builds.lakka.tv/noobs/Lakka_RPi/>
+ * RPi2 / RPi 3: <https://le-builds.lakka.tv/noobs/Lakka_RPi2/>
+ * RPi3 (64 bits): <https://le-builds.lakka.tv/noobs/Lakka_RPi3_64/>
+ * RPi4: <https://le-builds.lakka.tv/noobs/Lakka_RPi4/>
+ * RPi4 (64 bits): <https://le-builds.lakka.tv/noobs/Lakka_RPi4_64/>
+ 6. Download all the available files into a local folder named as the last part of the URL (e.g. *Lakka_RPi3_64*)
+ 7. Copy the folder with all the files to the __os__ folder in your SD card
+ 8. Boot your RPi with your SD card, Lakka should appear in the OS list
 
 ## Berryboot
 
