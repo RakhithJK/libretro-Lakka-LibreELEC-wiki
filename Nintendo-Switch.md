@@ -7,6 +7,3 @@
 5. Under More Configs press `lakka` to boot Lakka
 
 It is advised to use Hekate UMS to do any SD card changes. This is due to bad design of the SD card reader in the console, which has tendency to break pins in the connector for the SD card reader on the motherboard.
-
-# Known issues
-- If the console is put in sleep and then placed on the dock, it will crash/lock up kernel
