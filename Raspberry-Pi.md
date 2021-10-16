@@ -30,4 +30,4 @@ Since Lakka version 3.5.1 it is possible to use CRT output. Here are examples fo
 Add `video=Composite-1:720x480@60ie` to `cmdline.txt` right after `quiet` (separate  these statements with a space)
 
 ### Raspberry Pi 4
-In addition to the modification of `cmdline.txt` above, add `enable_tvout=1` and `dtoverlay=vc4-kms-v3d-pi4,compsosite=1` to `config.txt`.
+In addition to the modification of `cmdline.txt` above, add `enable_tvout=1` and `dtoverlay=vc4-kms-v3d-pi4,composite=1` to `config.txt`.
