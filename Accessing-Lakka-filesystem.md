@@ -32,7 +32,7 @@ The editable portions of the Lakka system can be found in the following folders.
 Root file system of Lakka is read only, therefore any changes to assets, cores or other files used by RetroArch are made using overlayfs mount points. These mount points are present in the `/tmp` folder, where folder from root file system is overlayed with custom content. Changes to these special folders are persistent during reboots.
 
 | Mount point | Original content | Overlayed content | Purpose |
-+---+---+---+---|
+|---|---|---|---|
 | `/tmp/assets` | `/usr/share/retroarch-assets` | `/storage/assets` | Fonts, icons, background images, themes |
 | `/tmp/cheats` | `/usr/share/libretro-cheats` | `/storage/cheats` | Loadable cheat files |
 | `/tmp/cores` | `/usr/lib/libretro` | `/storage/cores` | Libretro emulator cores and info files |
