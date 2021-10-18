@@ -9,16 +9,40 @@ Lakka can also be configured to use [ROMs that are served from a NAS](Serving-RO
 
 The editable portions of the Lakka system can be found in the following folders. Note that these the only folders which are made accessible via SAMBA -- accessing other areas of the filesystem requires a different approach.
 
- * **roms** - ROMs, films, music, and other content
- * **savefiles**
- * **savestates** - 'quicksave' states, as opposed to savefiles
- * **screenshots**
- * **shaders** - to override shaders
- * **system** - to store BIOSes
- * **update** - copy update files here to update Lakka
- * **playlists** - to access the playlists
- * **joypad** - joypad autoconfiguration profiles which are specific to your Lakka system
- * **thumbnails** - the place where game thumbnails are stored
+ * **Assets** - fonts, icons, background images, themes
+ * **Cheats** - loadable cheat files
+ * **Configfiles** - configuration files for RetroArch and other parts of the system
+ * **Cores** - libretro emulator cores and info files
+ * **Database** - files used for content matching during automatic scanning of ROMs
+ * **Joypads** - joypad autoconfiguration profiles
+ * **Logs** - log files
+ * **Overlays** - custom themed overlays
+ * **Playlists** - custom playlists and playlists created by the scanner
+ * **Remappings** - custom controller mappings per game / core
+ * **Roms** - ROMs, films, music, and other content, including **downloads** subfolder with files downloaded by the `Online Updater` &rarr; `Content Downloader`
+ * **Savefiles** - save files created by the games
+ * **Savestates** - 'quicksave' states, as opposed to savefiles
+ * **Screenshots** - screenshots made during gameplay
+ * **Services** - configuration files for system services
+ * **Shaders** - shaders for rendering various visual postprocessing effects
+ * **System** - to store BIOSes and other files needed by the emulators
+ * **Thumbnails** - the place where game thumbnails are stored
+ * **Update** - copy update files here to update Lakka
+
+Root file system of Lakka is read only, therefore any changes to assets, cores or other files used by RetroArch are made using overlayfs mount points. These mount points are present in the `/tmp` folder, where folder from root file system is overlayed with custom content. Changes to these special folders are persistent during reboots.
+
+| Mount point | Original content | Overlayed content | Purpose |
++---+---+---+---|
+| `/tmp/assets` | `/usr/share/retroarch-assets` | `/storage/assets` | Fonts, icons, background images, themes |
+| `/tmp/cheats` | `/usr/share/libretro-cheats` | `/storage/cheats` | Loadable cheat files |
+| `/tmp/cores` | `/usr/lib/libretro` | `/storage/cores` | Libretro emulator cores and info files |
+| `/tmp/database` | `/usr/share/libretro-database` | `/storage/database` | Databases for content matching |
+| `/tmp/joypads` | `/etc/retroarch-joypad-autoconfig` | `/storage/joypads` | Profiles for automatic configuration of game controllers |
+| `/tmp/overlays` | `/usr/share/retroarch-overlays` | `/storage/overlays` | Themed overlays |
+| `/tmp/shaders` | `/usr/share/common-shaders` | `/storage/shaders` | Shaders for rendering various visual postprocessing effects |
+| `/tmp/system` | `/usr/share/retroarch-system` | /storage/system` | BIOS files and other files needed by emulators |
+
+Where applicable, SAMBA shows the merged content, e.g. share **System** shows the content of `/tmp/system`.
 
 ## Transferring files via a network connection
 
@@ -39,8 +63,8 @@ The credentials for SCP are the same as for SSH: username **root** and password 
 
 In a terminal, copy the files over network using the scp command:
 
-    scp -r roms/* root@ip-of-your-lakka:roms/
-    scp -r bios/* root@ip-of-your-lakka:system/
+    scp -r roms/* root@ip-of-your-lakka:/storage/roms/
+    scp -r bios/* root@ip-of-your-lakka:/tmp/system/
 
 #### SCP on Windows hosts
 
