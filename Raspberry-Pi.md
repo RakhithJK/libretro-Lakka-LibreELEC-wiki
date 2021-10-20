@@ -27,7 +27,7 @@ So the board'll not use the HDMI sound output.
 Since Lakka version 3.5.1 it is possible to use CRT output. Here are examples for 240p mode:
 
 ### Raspberry Pi 3 
-Add `video=Composite-1:720x480@60ie` to `cmdline.txt` right after `quiet` (separate  these statements with a space)
+Add `video=Composite-1:720x480@60e` to `cmdline.txt` right after `quiet` (separate  these statements with a space)
 
 ### Raspberry Pi 4
 In addition to the modification of `cmdline.txt` above, add `enable_tvout=1` and `dtoverlay=vc4-kms-v3d-pi4,composite=1` to `config.txt`.
