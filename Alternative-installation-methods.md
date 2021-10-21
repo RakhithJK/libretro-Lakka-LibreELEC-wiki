@@ -8,7 +8,7 @@ Works for RPi1, RPi2, RPi3 and RPi4.
 [NOOBS GitHub repository](https://github.com/raspberrypi/noobs)
 
  1. Format your SD card as FAT32
- 2. Download [latest NOOBS release](https://downloads.raspberrypi.org/NOOBS_latest)
+ 2. Download [latest NOOBS lite release](https://downloads.raspberrypi.org/NOOBS_lite_latest)
  3. Extract NOOBS to your SD card
  4. Open [Lakka NOOBS download page](https://le-builds.lakka.tv/noobs/)
  5. Enter the folder matching your RPi:
