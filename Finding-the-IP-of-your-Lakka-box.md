@@ -1,6 +1,6 @@
 ## Lakka interface
 
-You can have access to your IP Address via the menu **Information** > **Network Information**.
+You can have access to your IP Address via the menu **Information** &rarr; **Network Information**.
 
 ## Avahi
 

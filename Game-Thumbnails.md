@@ -7,7 +7,7 @@ Lakka can display three types of thumbnails for games in playlists:
 Below: An in-game snapshot displayed with a Sega - 32X playlist.
 ![XMB Thumbnails](images/thumbnails.png)
 
-Lakka provides packs of [thumbnails](http://thumbnailpacks.libretro.com) suitable for use with many emulated systems. These thumbnail packs are recommended for most users and can be installed in two ways:
+Lakka provides packs of [thumbnails](https://thumbnailpacks.libretro.com) suitable for use with many emulated systems. These thumbnail packs are recommended for most users and can be installed in two ways:
 
 * **Option A**: Download those packs to a host PC and then [copy the contents of the pack into your Lakka system's Thumbnails directory](Accessing-Lakka-filesystem). 
 * **Option B**: [Connect the Lakka system to the internet](Network-settings) and use the built-in thumbnails updater, available from the online update menu within the Lakka settings interface

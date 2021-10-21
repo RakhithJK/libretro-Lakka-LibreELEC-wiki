@@ -5,7 +5,7 @@ On Windows, you will need a graphical tool to flash Lakka to your SD card.
 
 This tool is called Win32DiskImager and is free.
 
-[Download Win32DiskImager](http://sourceforge.net/projects/win32diskimager/)
+[Download Win32DiskImager](https://sourceforge.net/projects/win32diskimager/)
 
 ### Setup Windows image flasher utility
 

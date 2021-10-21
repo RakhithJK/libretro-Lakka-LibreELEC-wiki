@@ -1,4 +1,4 @@
-To use Lakka properly on a CRT screen, we recommand using a Raspberry Pi.
+To use Lakka properly on a CRT screen, we recommend using a Raspberry Pi.
 
 You will need to add a modeline in the config.txt.
 
@@ -8,7 +8,7 @@ A simple modeline to get started is
 
     hdmi_timings=1920 1 152 247 280 240 1 3 7 12 0 0 0 60 0 40860000 1
 
-We recommand that you use an adapter like this one: http://www.rgb-pi.com/
+We recommend that you use an adapter like this one: https://www.rgb-pi.com/
 
 The quality will be a lot better than on the composite output.
 

@@ -80,11 +80,11 @@ If you're on Linux, you can mount the second partition of your SD card/USB pendr
 
 ### Direct drive access on a Windows host
 
-Accessing `ext4` partitions from windows is not supported natively but you can install a [driver](http://www.howtogeek.com/112888/3-ways-to-access-your-linux-partitions-from-windows/).
+Accessing `ext4` partitions from windows is not supported natively but you can install a [driver](https://www.howtogeek.com/112888/3-ways-to-access-your-linux-partitions-from-windows/).
 
 ### Direct drive access on an OS X host
 
-Mac OS X does not allow users to mount ext4 partitions natively. [Paragon's ExtFS driver](http://www.paragon-software.com/home/extfs-mac/) is paid software. [OSXFuse](http://osxdaily.com/2014/03/20/mount-ext-linux-file-system-mac/) is free software. We have not tested either of these yet.
+Mac OS X does not allow users to mount ext4 partitions natively. [Paragon's ExtFS driver](https://www.paragon-software.com/home/extfs-mac/) is paid software. [OSXFuse](https://osxdaily.com/2014/03/20/mount-ext-linux-file-system-mac/) is free software. We have not tested either of these yet.
 
 ## Using an external USB drive
 

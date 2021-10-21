@@ -37,7 +37,7 @@ You will find the result in Lakka-LibreELEC/target:
 The `.kernel` and `.system` files can be used to upgrade an existing Lakka system.  
 The `.img.gz` file is the final result, it contains the image that can be flashed to an SD card or a USB pen drive.
 
-Please follow this [tutorial](http://www.lakka.tv/get) to know how to flash Lakka on a drive.
+Please follow this [tutorial](https://www.lakka.tv/get) to know how to flash Lakka on a drive.
 
 ## Upgrading your Lakka build
 

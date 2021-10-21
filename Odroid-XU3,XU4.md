@@ -31,6 +31,6 @@ The fan is loud and constantly switches ON/OFF. You can improve it using this [t
 
 XU4 Fan-Mod
 
-To take it one step further, you can replace the stock fan with a [3rd party one](http://forum.odroid.com/viewtopic.php?f=65&t=15310).
+To take it one step further, you can replace the stock fan with a [3rd party one](https://forum.odroid.com/viewtopic.php?f=65&t=15310).
 
-This [mod](http://forum.odroid.com/viewtopic.php?f=97&t=18211) combines the noctua and the stock-fan in a way that the original case can be used without any modifications.
+This [mod](https://forum.odroid.com/viewtopic.php?f=97&t=18211) combines the noctua and the stock-fan in a way that the original case can be used without any modifications.

@@ -4,7 +4,7 @@ Lakka uses DHCP, so if you attach your Lakka system to a wired switch or router 
 
 ## Wi-Fi
 
-RetroArch has now a [graphical interface](https://youtu.be/4Wr0jXKM3EY?t=4) to change the network settings. Just go to [Settings Tab > Wifi](http://www.lakka.tv/articles/2016/10/06/major-release-brings-wifi-and-simplified-interface/#wi-fi-configuration-interface).
+RetroArch has now a [graphical interface](https://youtu.be/4Wr0jXKM3EY?t=4) to change the network settings. Just go to [Settings Tab > Wifi](https://www.lakka.tv/articles/2016/10/06/major-release-brings-wifi-and-simplified-interface/#wi-fi-configuration-interface).
 
 You can still use  *conmannctl* command to connect to the network.
 

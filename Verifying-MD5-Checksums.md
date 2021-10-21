@@ -16,7 +16,7 @@ The open-source **HashCheck Shell Extension** featured in these screenshots make
 
 ![MD5sums.exe](images/verify-md5-md5sums-exe.gif)
 
-Alternatively, [md5summer](http://md5summer.org), is another option.
+Alternatively, [md5summer](https://md5summer.org), is another option.
 
 ### Linux
 md5sum should be available by default. If otherwise, install coreutils package.
@@ -38,6 +38,5 @@ Sums can be checked [online](https://lmddgtfy.net/?q=md5%20online), too.
 You can verify all BIOS files automatically, with [System.dat](https://github.com/libretro/libretro-database/blob/master/dat/System.dat), through one of the following programs:
 
 - [clrmamepro](https://mamedev.emulab.it/clrmamepro/)
-- [ROMCenter](http://www.romcenter.com)
-- [ROMulus](http://romulus.net63.net/)
-- [RomVault](http://www.romvault.com/)
+- [ROMCenter](https://www.romcenter.com)
+- [RomVault](https://www.romvault.com/)

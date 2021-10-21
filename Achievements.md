@@ -2,7 +2,7 @@ RetroAchievements is a third party service that provides achievements unlocking 
 
 ## Account creation
 
-First, you will need to head on over to [RetroAchievements.org](http://retroachievements.org/) and create an account. When you’re at the site, click **Create a new Account** in the top left corner of the page. Proceed with filling in all the requested information. Once that is all done, be sure to write down your **username** and **password**. This is important, as you will need these credentials later on in this tutorial.
+First, you will need to head on over to [RetroAchievements.org](https://retroachievements.org/) and create an account. When you’re at the site, click **Create a new Account** in the top left corner of the page. Proceed with filling in all the requested information. Once that is all done, be sure to write down your **username** and **password**. This is important, as you will need these credentials later on in this tutorial.
 
 ## Setup your credentials in Lakka
 

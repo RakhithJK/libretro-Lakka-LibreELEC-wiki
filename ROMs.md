@@ -27,7 +27,7 @@ Lakka uses a ROM scanning system to generate the playlists in its horizontal men
 
 Each ROM stored in a folder being scanned by RetroArch is checked against a [database](https://github.com/libretro/libretro-database/tree/master/dat).
 
-This database is based on [No-Intro](http://www.no-intro.org/) and will recognize only the good dumps. See it as a sort of ROM validator.
+This database is based on [No-Intro](https://no-intro.org/) and will recognize only the good dumps. See it as a sort of ROM validator.
 
 If you would like to generate playlists manually, or generate playlists for systems that do not have scanning support yet, [the playlist file format has been documented](Playlists).
 

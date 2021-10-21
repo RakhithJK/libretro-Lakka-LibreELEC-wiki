@@ -1,6 +1,6 @@
 ## Playlist support
 
-DOSBox can use per game [configuration file](http://www.dosbox.com/wiki/Dosbox.conf#Sections) to launch game. Please check the [compatibility list](http://www.dosbox.com/comp_list.php?letter=a) to get specific configuration, here is a minimal configuration file to launch game automatically
+DOSBox can use per game [configuration file](https://www.dosbox.com/wiki/Dosbox.conf#Sections) to launch game. Please check the [compatibility list](https://www.dosbox.com/comp_list.php?letter=a) to get specific configuration, here is a minimal configuration file to launch game automatically
 
     [autoexec]
     @echo off

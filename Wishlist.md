@@ -20,7 +20,7 @@ Less important:
  * <strike>Official Wii U GameCube adapter</strike>
  * Any NUC or ARM board
 
-You can donate a small amount on a monthly basis using [Patreon](http://patreon.com/libretro)
+You can donate a small amount on a monthly basis using [Patreon](https://patreon.com/libretro)
 
 Postal Address (subject to change, let contact me before sending)
 

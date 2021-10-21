@@ -2,7 +2,7 @@
 
 To allow launching ScummVM games from the menu, you'll need to do the following:
 
-1. Find the Game ID of the game you're looking to add. The game IDs can be found in [ScummVM's compatibility list](http://scummvm.org/compatibility).
+1. Find the Game ID of the game you're looking to add. The game IDs can be found in [ScummVM's compatibility list](https://scummvm.org/compatibility).
     > `monkey` for Monkey Island
 
 2. Create a `.scummvm` file *inside the game directory* named by the Game ID

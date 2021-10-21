@@ -1,4 +1,4 @@
-This process requires [access to the Lakka commandline](http://www.lakka.tv/doc/Accessing-Lakka-command-line-interface/) and is also only recommended for those comfortable working in a Linux shell environment.
+This process requires [access to the Lakka commandline](Accessing-Lakka-command-line-interface) and is also only recommended for those comfortable working in a Linux shell environment.
 
 ## Mounting a Windows/CIFS/Samba share
 

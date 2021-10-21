@@ -66,7 +66,7 @@ The config key for the audio device is **audio_device**. For example:
 
     audio_device = "hdmi:CARD=PCH,DEV=0"
 
-But please bear in mind that you need to [stop retroarch](http://www.lakka.tv/doc/Configuring-Lakka/#using-the-command-line-interface) before editing the configuration file.
+But please bear in mind that you need to [stop retroarch](Configuring-Lakka/#using-the-command-line-interface) before editing the configuration file.
 
 ## Audio Output Rate
 

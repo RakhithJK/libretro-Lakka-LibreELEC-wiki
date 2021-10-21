@@ -26,7 +26,7 @@ SSH will then ask for your password, the default password is **root**.
 
 ### On Windows
 
-On Windows, you will need an SSH client like [Putty](http://www.putty.org/)
+On Windows, you will need an SSH client like [Putty](https://www.putty.org/)
 
 Use putty to connect your Lakka box, enter the IP of your box in the hostname field, set SSH connection type. The username is **root** and the password is also **root**.
 
