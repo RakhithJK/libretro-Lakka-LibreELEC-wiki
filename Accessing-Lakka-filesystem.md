@@ -40,7 +40,7 @@ Root file system of Lakka is read only, therefore any changes to assets, cores o
 | `/tmp/joypads` | `/etc/retroarch-joypad-autoconfig` | `/storage/joypads` | Profiles for automatic configuration of game controllers |
 | `/tmp/overlays` | `/usr/share/retroarch-overlays` | `/storage/overlays` | Themed overlays |
 | `/tmp/shaders` | `/usr/share/common-shaders` | `/storage/shaders` | Shaders for rendering various visual postprocessing effects |
-| `/tmp/system` | `/usr/share/retroarch-system` | /storage/system` | BIOS files and other files needed by emulators |
+| `/tmp/system` | `/usr/share/retroarch-system` | `/storage/system` | BIOS files and other files needed by emulators |
 
 Where applicable, SAMBA shows the merged content, e.g. share **System** shows the content of `/tmp/system`.
 
