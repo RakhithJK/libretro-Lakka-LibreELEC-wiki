@@ -1,6 +1,6 @@
 ## RetroArch GUI
 
-Since release of 3.0 it is possible to select the time zone via RetroArch GUI - `Settings` -> `Services`.
+Since release of 3.0 it is possible to select the time zone via RetroArch GUI - **Settings** &rarr; **Services**.
 
 ![Timezone](images/timezone.png)
 
