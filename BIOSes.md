@@ -17,8 +17,8 @@ Warning: Linux is a case sensitive system. Please name BIOS files exactly accord
 | DOOM | prboom.wad | | BIOS goes next to the ROMs |
 | Magnavox - Odyssey2 | o2rom.bin | `562d5ebf9e030a40d6fabfc2f33139fd` ||
 | MAME 2003 | | | BIOS goes next to the ROMs |
-| Mattel - Intellivision | exec.bin | 62e761035cb657903761800f4437b8af ||
-| Mattel - Intellivision | grom.bin | 0cd5946c6473e42e8e4c2137785e427f ||
+| Mattel - Intellivision | exec.bin | `62e761035cb657903761800f4437b8af` ||
+| Mattel - Intellivision | grom.bin | `0cd5946c6473e42e8e4c2137785e427f` ||
 | NEC - PC Engine - TurboGrafx 16 | syscard3.pce | `0754f903b52e3b3342202bdafb13efa5` | |
 | NEC - PC-FX | pcfx.rom | `08e36edbea28a017f79f8d4f7ff9b6d7` | |
 | Nintendo - Famicom Disk System | disksys.rom | `ca30b50f880eb660a320674ed365ef7a` | |
