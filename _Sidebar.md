@@ -3,7 +3,7 @@
 * [Why Lakka](Why-Lakka)
 * [Glossary](Glossary)
 * [Hardware support](Hardware-support)
-* [Downloading and installing a prebuilt image](https://www.lakka.tv/get)
+* [Downloading and installing a prebuilt image](https://www.lakka.tv/get/)
 * [Alternative image flashing methods](Alternative-image-flashing-methods)
 * [Alternative installation methods](Alternative-installation-methods)
 * [Upgrading Lakka](Upgrading-Lakka)
