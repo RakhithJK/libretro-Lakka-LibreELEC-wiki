@@ -12,11 +12,13 @@ Works for RPi1, RPi2, RPi3 and RPi4.
  3. Extract NOOBS to your SD card
  4. Open [Lakka NOOBS download page](https://le-builds.lakka.tv/noobs/)
  5. Enter the folder matching your RPi:
+
  * For RPi0 / RPi1: [Lakka_RPi](https://le-builds.lakka.tv/noobs/Lakka_RPi/)
  * For RPi2 / RPi3: [Lakka_RPi2](https://le-builds.lakka.tv/noobs/Lakka_RPi2/)
  * For RPi3 (64 bits): [Lakka_RPi4_64](https://le-builds.lakka.tv/noobs/Lakka_RPi3_64/)
  * For RPi4: [Lakka_RPi4](https://le-builds.lakka.tv/noobs/Lakka_RPi4/)
  * For RPi4 (64 bits): [Lakka_RPi4_64](https://le-builds.lakka.tv/noobs/Lakka_RPi4_64/)
+
  6. Download all the available files into a local folder named as the last part of the URL (e.g. *Lakka_RPi3_64*)
  7. Copy the folder with all the files to the __os__ folder in your SD card
  8. Boot your RPi with your SD card, Lakka should appear in the OS list
