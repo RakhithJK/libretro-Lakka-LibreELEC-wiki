@@ -84,4 +84,4 @@
 * [Bug tracker](https://github.com/libretro/Lakka-LibreELEC/issues)
 * [Forums](https://forums.libretro.com/c/libretro/lakka-tv-general)
 * [IRC](https://web.libera.chat/#lakkatv)
-* [Discord](https://discordapp.com/invite/27Xxm2h)
+* [Discord](https://discord.gg/BNFR4hM)
