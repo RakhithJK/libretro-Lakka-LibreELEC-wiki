@@ -12,7 +12,6 @@ A file should be created in the **joypads/udev/** folder.
 
 There are many ways to send us that file.
 
- * By [mail](https://www.lakka.tv/contact)
  * Using our [github issue tracker](https://github.com/libretro/Lakka-LibreELEC/issues)
  * Pull Request on [RetroArch Joypad Autoconfig repository](https://github.com/libretro/retroarch-joypad-autoconfig), the file goes in the udev folder.
 
