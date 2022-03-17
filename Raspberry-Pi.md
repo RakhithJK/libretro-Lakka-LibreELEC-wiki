@@ -41,3 +41,14 @@ Add following lines to `config.txt`:
 
      enable_tvout=1
      dtoverlay=vc4-kms-v3d-pi4,composite=1
+
+
+## Analog audio output
+Following lines have to be added to `config.txt` to enable audio output via the analog 3.5 inch jack:
+
+    dtoverlay=piaudio
+    dtparam=audio=on
+
+These lines must be in this order and no other config lines should be between them.
+
+Additionally in RetroArch set the audio output device to `default:CARD=Headphones`.
