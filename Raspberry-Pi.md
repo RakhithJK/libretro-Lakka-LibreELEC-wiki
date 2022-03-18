@@ -39,16 +39,16 @@ Add `video=Composite-1:720x480@60e` to `cmdline.txt` right after `quiet` (separa
 
 Add following lines to `config.txt`:
 
-     enable_tvout=1
-     dtoverlay=vc4-kms-v3d-pi4,composite=1
+    enable_tvout=1
+    dtoverlay=vc4-kms-v3d-pi4,composite=1
 
 
 ## Analog audio output
-Following lines have to be added to `config.txt` to enable audio output via the analog 3.5 inch jack:
+If you are missing the audio output device for the 3.5 mm jack, following lines have to be added to `config.txt` to enable audio output via the 3.5 mm jack:
 
     dtoverlay=piaudio
     dtparam=audio=on
 
 These lines must be in this order and no other config lines should be between them.
 
-Additionally in RetroArch set the audio output device to `default:CARD=Headphones`.
+In RetroArch set the audio output device to `default:CARD=Headphones` to route the audio output to the 3.5 mm jack.
