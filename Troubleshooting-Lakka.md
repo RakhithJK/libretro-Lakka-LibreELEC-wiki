@@ -80,7 +80,9 @@ Note that all arguments must be on the same line - this is very important - no l
 | Rockchip | `/extlinux/extlinux.conf` | line starting with `APPEND` |
 | Amlogic | `/uEnv.ini` | line starting with `bootargs=` |
 | Generic - GRUB | `/grub.cfg` | line starting with `linux` in the `menuentry "Live"` section |
-| Generic - Syslinx | `/syslinux.cfg` | line starting with `APPEND` in the `LABEL live` section |
+| Generic - Syslinux | `/syslinux.cfg` | line starting with `APPEND` in the `LABEL live` section |
+
+Note: For Generic PC it is recommended to modify both `grub.cfg` and `syslinux.cfg`. `grub.cfg` is currently used only for compatibility with EFI32 systems, in all other cases (legacy boot / EFI64) `syslinux.cfg` is used.
 
 ## Gathering information
 
