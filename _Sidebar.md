@@ -77,6 +77,7 @@
 * [Compiling Lakka](Compiling-Lakka)
 * [Packaging a libretro core for Lakka](Packaging-a-libretro-core-for-Lakka)
 * [Donating hardware](Wishlist)
+* [Release instructions](Release-Instructions)
 
 ## Support
 
