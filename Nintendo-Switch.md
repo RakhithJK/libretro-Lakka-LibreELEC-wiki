@@ -7,3 +7,5 @@
 5. Under More Configs press `lakka` to boot Lakka
 
 It is advised to use Hekate UMS to do any SD card changes. This is due to bad design of the SD card reader in the console, which has tendency to break pins in the connector for the SD card reader on the motherboard.
+
+Since Lakka 4.3 release support for more Nintendo Switch variants was added (i.e. Mariko, Lite, modchip). Hekate 6.0.1 or higher is required. If you have modchip update also sdloader.
