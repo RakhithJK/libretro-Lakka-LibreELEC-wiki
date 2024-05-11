@@ -7,6 +7,7 @@ On Windows you will need two additional tools, that can:
 
 ## Install required tools
 Install 7-Zip and Win32DiskImager. You can download them using the links above.
+
 ## Decompress the downloaded Lakka image file
 Using Windows File Explorer navigate to folder where you have save the downloaded Lakka image file (`Lakka-*.img.gz`). Right click on it and select 7-Zip -> Extract here. You will get decompressed file (`Lakka-*.img`).
 
